@@ -13,7 +13,7 @@
 	> In the login page we have two text fields for username and password
 	> We have a login button and register tap content button.
 * Register page:
-* ![Example Image](https://github.com/naveenvenna70/44643Sec04Team10Spring2024FinalProject/blob/main/pic2%20(1).jpeg?raw=true)
+* ![Example Image](https://github.com/naveenvenna70/44643Sec04Team10Spring2024FinalProject/blob/main/pic3%20(1).jpeg?raw=true)
 	> In the register page, we have text fields for first name, last name, email id & username.
 	> We have given text fields for phone number, password & confirm password.
 	> We have a button for register.
