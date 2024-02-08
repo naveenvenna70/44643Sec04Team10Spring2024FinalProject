@@ -9,6 +9,7 @@
 # **UI protypes description :**
 
 * Login page:
+  ![screen 1](pic2)
 	> In the login page we have two text fields for username and password
 	> We have a login button and register tap content button.
 * Register page:
