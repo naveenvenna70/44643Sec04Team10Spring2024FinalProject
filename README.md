@@ -32,7 +32,7 @@
 	> We have given buttons to shift to the previous/next month.
 	> We have given segment control for week, month, and agenda.
 * Loan estimate page:
-* ![Example Image](https://github.com/naveenvenna70/44643Sec04Team10Spring2024FinalProject/blob/main/pic2%20(1).jpeg?raw=true)
+* ![Example Image](https://github.com/naveenvenna70/44643Sec04Team10Spring2024FinalProject/blob/main/pic7%20(1).jpeg?raw=true)
 	> In this page, we have given text fields for input user data.
 	> We have given radio buttons in this page.
 	> We have given drop down button for assets details.
