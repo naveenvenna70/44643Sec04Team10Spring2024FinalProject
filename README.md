@@ -9,7 +9,6 @@
 # **UI protypes description :**
 
 * Login page:
-  ![screen 1](pic2)
 	> In the login page we have two text fields for username and password
 	> We have a login button and register tap content button.
 * Register page:
@@ -56,3 +55,5 @@
 * It navigates to the payment schedule page by tapping the content payment schedule and can return to home page with the back button.
 * It navigates to the reviews page by tapping the content review and can return to home page with the back button.
 * It navigates to the Advice & tips page by tapping the content advise & tips and can return to home page with the back button
+
+  
