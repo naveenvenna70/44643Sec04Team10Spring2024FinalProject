@@ -26,7 +26,7 @@
 	> We have given drop down buttons.
 	> We have given text fields for generated output.
 * Calendar page:
-* ![Example Image](https://github.com/naveenvenna70/44643Sec04Team10Spring2024FinalProject/blob/main/pic2%20(1).jpeg?raw=true)
+* ![Example Image](https://github.com/naveenvenna70/44643Sec04Team10Spring2024FinalProject/blob/main/pic6%20(1).jpeg?raw=true)
 	> In this page we have a calendar in which we create reminders for the customer.
 	> We have given text fields for this reminders.
 	> We have given buttons to shift to the previous/next month.
