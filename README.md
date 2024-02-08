@@ -20,13 +20,14 @@
 * Home page:
 * ![screen 3](https://github.com/naveenvenna70/44643Sec04Team10Spring2024FinalProject/blob/main/pic4%20(1).jpeg?raw=true)
 	> In the home page, we have navigation bar for debt track, calendar, loan estimate & payment schedule.
-        > We provide drop down menu button for accessing the reviews,advise&tips,help pages. 
+         We provide drop down menu button for accessing the reviews,advise&tips,help pages. 
 * Debt tracking page:
 * ![screen 4](https://github.com/naveenvenna70/44643Sec04Team10Spring2024FinalProject/blob/main/pic5%20(1).jpeg?raw=true)
 	> In this page we have given input text fields.
 	> We have given drop down buttons.
 	> We have given text fields for generated output.
-        > We provide scroll vertically button here.   
+         We provide scroll vertically button here. 
+        
 * Calendar page:
 * ![screen 5](https://github.com/naveenvenna70/44643Sec04Team10Spring2024FinalProject/blob/main/pic6%20(1).jpeg?raw=true)
 	> In this page we have a calendar in which we create reminders for the customer.
@@ -39,23 +40,24 @@
 	> We have given toggle switches in this page.
 	> We have given drop down button for assets details.
 	> We have given upload buttons for IT returns & Bank statements.
-        > We provide scroll vertically button here. 
+         We provide scroll vertically button here.
+        
 * Payment scheduling page:
 * ![screen 7](https://github.com/naveenvenna70/44643Sec04Team10Spring2024FinalProject/blob/main/pic8%20(1).jpeg?raw=true)
 	> In this page, we have given text fields for input user data.
 	> We have given drop down button for the completed transactions.
 	> We have given text fields for the estimate due amount & credit score.
-        > We provide scroll vertically button here. 
+         We provide scroll vertically button here. 
 * Review page:
 * ![screen 8](https://github.com/naveenvenna70/44643Sec04Team10Spring2024FinalProject/blob/main/pic9%20(1).jpeg?raw=true)
 	> In this page, we have given text fields for the comments section.
 	> We have given buttons for the like, dislike & reply.
-        > We provide scroll vertically button here. 
+         We provide scroll vertically button here. 
 * Advise & tips page:
 * ![screen 9](https://github.com/naveenvenna70/44643Sec04Team10Spring2024FinalProject/blob/main/pic10%20(1).jpeg?raw=true)
 	> In this page, we have provided a set of advice. & tips to customers in planning strategies & maintaining credit score.
-        > We include terms and conditions of the application in this page. 
-        > We provide scroll vertically button here. 
+         We include terms and conditions of the application in this page. 
+         We provide scroll vertically button here. 
 
 
 # **Navigation among the different screens**
