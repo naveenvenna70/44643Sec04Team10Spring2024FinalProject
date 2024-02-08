@@ -38,7 +38,7 @@
 	> We have given drop down button for assets details.
 	> We have given upload buttons for IT returns & Bank statements.
 * Payment scheduling page:
-* ![Example Image](https://github.com/naveenvenna70/44643Sec04Team10Spring2024FinalProject/blob/main/pic2%20(1).jpeg?raw=true)
+* ![Example Image](https://github.com/naveenvenna70/44643Sec04Team10Spring2024FinalProject/blob/main/pic8%20(1).jpeg?raw=true)
 	> In this page, we have given text fields for input user data.
 	> We have given drop down button for the completed transactions.
 	> We have given text fields for the estimate due amount & credit score.
