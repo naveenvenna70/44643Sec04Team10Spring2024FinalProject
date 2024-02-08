@@ -18,7 +18,7 @@
 	> We have given text fields for phone number, password & confirm password.
 	> We have a button for register.
 * Home page:
-* ![Example Image](https://github.com/naveenvenna70/44643Sec04Team10Spring2024FinalProject/blob/main/pic2%20(1).jpeg?raw=true)
+* ![Example Image](https://github.com/naveenvenna70/44643Sec04Team10Spring2024FinalProject/blob/main/pic4%20(1).jpeg?raw=true)
 	> In the home page, we have tap buttons for debt track, calendar, loan estimate & payment schedule.
 * Debt tracking page:
 * ![Example Image](https://github.com/naveenvenna70/44643Sec04Team10Spring2024FinalProject/blob/main/pic2%20(1).jpeg?raw=true)
