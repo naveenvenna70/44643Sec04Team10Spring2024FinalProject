@@ -43,7 +43,7 @@
 	> We have given drop down button for the completed transactions.
 	> We have given text fields for the estimate due amount & credit score.
 * Review page:
-* ![Example Image](https://github.com/naveenvenna70/44643Sec04Team10Spring2024FinalProject/blob/main/pic2%20(1).jpeg?raw=true)
+* ![Example Image](https://github.com/naveenvenna70/44643Sec04Team10Spring2024FinalProject/blob/main/pic9%20(1).jpeg?raw=true)
 	> In this page, we have given text fields for the comments section.
 	We have given buttons for the like, dislike & reply.
 * Advise & tips page:
