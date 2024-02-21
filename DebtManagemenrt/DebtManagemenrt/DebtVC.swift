@@ -6,9 +6,21 @@
 //
 
 import UIKit
+import Lottie
 
 class DebtVC: UIViewController {
-
+    @IBOutlet weak var LaunchLAV: LottieAnimationView!{
+        didSet{
+            LaunchLAV.animation = .named("Animation")
+            LaunchLAV.alpha=1
+            LaunchLAV.play(){[weak self] _ in
+                        UIViewPropertyAnimator.runningPropertyAnimator(withDuration: 1, delay: 0.1, options: [.curveEaseIn]){
+                            self!.LaunchLAV.alpha = 0
+                        }
+                    }
+                }
+            }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
