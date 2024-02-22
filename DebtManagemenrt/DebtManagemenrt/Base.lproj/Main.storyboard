@@ -21,19 +21,23 @@
                                 <rect key="frame" x="20" y="79" width="353" height="639"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="DebtManagement" translatesAutoresizingMaskIntoConstraints="NO" id="XEe-td-eHg">
-                                        <rect key="frame" x="0.0" y="0.0" width="353" height="286.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="279.66666666666669"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" axis="vertical" alignment="top" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="pTg-wi-4Qg" userLabel="UsernameSV">
-                                        <rect key="frame" x="0.0" y="337.66666666666669" width="353" height="57"/>
+                                        <rect key="frame" x="0.0" y="330.66666666666669" width="353" height="64"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pII-C7-Lz6">
-                                                <rect key="frame" x="0.0" y="0.0" width="75.666666666666671" height="20.333333333333332"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="username" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pII-C7-Lz6">
+                                                <rect key="frame" x="0.0" y="0.0" width="75.666666666666671" height="0.0"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dRL-cV-h7P" userLabel="usernameTF">
-                                                <rect key="frame" x="0.0" y="28.333333333333314" width="353" height="28.666666666666671"/>
+                                            <view alpha="0.0" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OY7-3C-7UB" userLabel="LaunchLAV" customClass="LottieAnimationView" customModule="Lottie">
+                                                <rect key="frame" x="0.0" y="8" width="353" height="48"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dRL-cV-h7P" userLabel="usernameTF">
+                                                <rect key="frame" x="0.0" y="64" width="353" height="0.0"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -82,26 +86,27 @@
                                     <constraint firstItem="Lez-bO-opw" firstAttribute="width" secondItem="zr7-s2-BzV" secondAttribute="width" multiplier="3" priority="750" id="wbZ-FT-Mrs"/>
                                 </constraints>
                             </stackView>
-                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OY7-3C-7UB" userLabel="LaunchLAV" customClass="LottieAnimationView" customModule="Lottie">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="zr7-s2-BzV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="1Y3-4Q-fcc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zr7-s2-BzV" secondAttribute="bottom" constant="100" id="Fqz-ZH-NG6"/>
-                            <constraint firstItem="OY7-3C-7UB" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="KL3-dm-d9c"/>
                             <constraint firstItem="zr7-s2-BzV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="O1N-Nx-9Ux"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zr7-s2-BzV" secondAttribute="trailing" constant="20" id="dlc-fn-wH8"/>
-                            <constraint firstItem="OY7-3C-7UB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fKG-0Q-Vsp"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OY7-3C-7UB" secondAttribute="trailing" id="lJP-VF-tho"/>
-                            <constraint firstItem="OY7-3C-7UB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="r57-vV-ihh"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="LaunchLAV" destination="OY7-3C-7UB" id="Ytj-a7-SF4"/>
+                        <outlet property="DebtManagementTV" destination="XEe-td-eHg" id="0ge-7Y-80t"/>
+                        <outlet property="LOGINBTN" destination="Lez-bO-opw" id="dkt-Jt-2tt"/>
+                        <outlet property="LaunchLAV" destination="OY7-3C-7UB" id="DAC-Uq-eAH"/>
+                        <outlet property="PasswordLBL" destination="83o-mx-BCT" id="zd8-L2-gTW"/>
+                        <outlet property="PasswordSV" destination="har-hf-vgk" id="6Fn-uy-JwR"/>
+                        <outlet property="PasswordTF" destination="Y6W-PY-jx5" id="CMs-g1-2O3"/>
+                        <outlet property="RegisterBTN" destination="pcq-wZ-Jcq" id="A1R-yg-gfA"/>
+                        <outlet property="UsernameSV" destination="pTg-wi-4Qg" id="VGG-3J-8Rp"/>
+                        <outlet property="usernameLBL" destination="pII-C7-Lz6" id="ZVk-4c-Vxz"/>
+                        <outlet property="usernameTF" destination="dRL-cV-h7P" id="AHk-xN-4kt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
