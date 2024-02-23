@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--DebtsignupVC-->
         <scene sceneID="Ej7-Tq-3MD">
             <objects>
-                <viewController id="1yX-fm-lHQ" sceneMemberID="viewController">
+                <viewController id="1yX-fm-lHQ" customClass="DebtsignupVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gnc-dh-Kwz">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -20,11 +20,11 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="xMt-AR-7fj" userLabel="BigContainerSV">
                                 <rect key="frame" x="20" y="79" width="353" height="753"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DebtManagement" translatesAutoresizingMaskIntoConstraints="NO" id="mS8-nY-NoR">
-                                        <rect key="frame" x="0.0" y="0.0" width="353" height="301.33333333333331"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="DebtManagement" translatesAutoresizingMaskIntoConstraints="NO" id="mS8-nY-NoR">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="416.66666666666669"/>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="tMD-d1-FIj" userLabel="FirstnameSV">
-                                        <rect key="frame" x="0.0" y="309.33333333333331" width="353" height="34"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="tMD-d1-FIj" userLabel="FirstnameSV">
+                                        <rect key="frame" x="0.0" y="424.66666666666669" width="353" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FirstName:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFn-sc-aYG" userLabel="FirstName">
                                                 <rect key="frame" x="0.0" y="0.0" width="115" height="34"/>
@@ -42,8 +42,8 @@
                                             <constraint firstItem="tfe-jv-vWG" firstAttribute="width" secondItem="SFn-sc-aYG" secondAttribute="width" multiplier="2" id="2HF-je-GMv"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="9lx-Sc-gsp">
-                                        <rect key="frame" x="0.0" y="351.33333333333331" width="353" height="34"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="9lx-Sc-gsp" userLabel="SecondnameSV">
+                                        <rect key="frame" x="0.0" y="466.66666666666663" width="353" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lastname:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9Q-zG-Fed" userLabel="LastName">
                                                 <rect key="frame" x="0.0" y="0.0" width="115" height="34"/>
@@ -61,8 +61,8 @@
                                             <constraint firstItem="mt2-uI-Zn4" firstAttribute="width" secondItem="c9Q-zG-Fed" secondAttribute="width" multiplier="2" id="qPz-KA-GC2"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="jhN-OM-KrR">
-                                        <rect key="frame" x="0.0" y="393.33333333333331" width="353" height="34"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="jhN-OM-KrR" userLabel="EmailSV">
+                                        <rect key="frame" x="0.0" y="508.66666666666663" width="353" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EmailD:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOo-XC-3VP" userLabel="EmailID">
                                                 <rect key="frame" x="0.0" y="0.0" width="115" height="34"/>
@@ -80,8 +80,8 @@
                                             <constraint firstItem="G6h-hO-MWr" firstAttribute="width" secondItem="vOo-XC-3VP" secondAttribute="width" multiplier="2" id="fWd-mM-s9L"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vun-wi-5kd">
-                                        <rect key="frame" x="0.0" y="435.33333333333337" width="353" height="34"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vun-wi-5kd" userLabel="UsernameSV">
+                                        <rect key="frame" x="0.0" y="550.66666666666663" width="353" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UserName:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8AJ-IV-P68">
                                                 <rect key="frame" x="0.0" y="0.0" width="115" height="34"/>
@@ -99,8 +99,8 @@
                                             <constraint firstItem="beJ-HX-efm" firstAttribute="width" secondItem="8AJ-IV-P68" secondAttribute="width" multiplier="2" id="bMu-Cc-WLW"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="yFU-ci-qOS">
-                                        <rect key="frame" x="0.0" y="477.33333333333337" width="353" height="34"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="yFU-ci-qOS" userLabel="NumberSV">
+                                        <rect key="frame" x="0.0" y="592.66666666666663" width="353" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone no:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mma-ow-hVI">
                                                 <rect key="frame" x="0.0" y="0.0" width="88" height="34"/>
@@ -123,8 +123,8 @@
                                             <constraint firstItem="mma-ow-hVI" firstAttribute="width" secondItem="qE0-Tx-tNb" secondAttribute="width" multiplier="2" id="7JK-aV-a9M"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="2Ij-tV-O5y">
-                                        <rect key="frame" x="0.0" y="519.33333333333337" width="353" height="34"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="2Ij-tV-O5y" userLabel="PasswordSV">
+                                        <rect key="frame" x="0.0" y="634.66666666666663" width="353" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJX-Rl-h0f">
                                                 <rect key="frame" x="0.0" y="0.0" width="115" height="34"/>
@@ -142,8 +142,8 @@
                                             <constraint firstItem="TJB-lR-Ctc" firstAttribute="width" secondItem="mJX-Rl-h0f" secondAttribute="width" multiplier="2" id="m0C-Am-2EY"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="OC5-OX-bFr">
-                                        <rect key="frame" x="0.0" y="561.33333333333337" width="353" height="34"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="OC5-OX-bFr" userLabel="ConfirmSV">
+                                        <rect key="frame" x="0.0" y="676.66666666666663" width="353" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ConfirmUser" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3K-lf-F3O" userLabel="ConfirmUserName">
                                                 <rect key="frame" x="0.0" y="0.0" width="115" height="34"/>
@@ -161,8 +161,8 @@
                                             <constraint firstItem="jr0-0Z-ZBt" firstAttribute="width" secondItem="H3K-lf-F3O" secondAttribute="width" multiplier="2" id="TVo-fc-bF5"/>
                                         </constraints>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxv-J7-bx2" userLabel="Signup/createUser">
-                                        <rect key="frame" x="0.0" y="603.33333333333337" width="353" height="149.66666666666663"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxv-J7-bx2" userLabel="Signup/createUser">
+                                        <rect key="frame" x="0.0" y="718.66666666666663" width="353" height="34.333333333333371"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Signup"/>
                                     </button>
@@ -188,6 +188,33 @@
                             <constraint firstItem="xMt-AR-7fj" firstAttribute="leading" secondItem="xnQ-OM-D8o" secondAttribute="leading" constant="20" id="xaP-bC-fqR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="BigContainerSV" destination="xMt-AR-7fj" id="bnx-Iq-Foj"/>
+                        <outlet property="ConfirmSV" destination="OC5-OX-bFr" id="XmR-td-6tj"/>
+                        <outlet property="ConfirmUserNameLBL" destination="H3K-lf-F3O" id="9Md-fk-DE1"/>
+                        <outlet property="ConfirmUserNameTF" destination="jr0-0Z-ZBt" id="wJO-tB-3lm"/>
+                        <outlet property="CountrycodeTF" destination="qE0-Tx-tNb" id="LRq-aE-FAJ"/>
+                        <outlet property="DebtTV" destination="mS8-nY-NoR" id="uRt-A5-oQ7"/>
+                        <outlet property="EmailIDLBL" destination="vOo-XC-3VP" id="K3P-tk-zrL"/>
+                        <outlet property="EmailIDTF" destination="G6h-hO-MWr" id="CTu-nV-isF"/>
+                        <outlet property="EmailSV" destination="jhN-OM-KrR" id="eov-mW-JCc"/>
+                        <outlet property="FirstNameLBL" destination="SFn-sc-aYG" id="47l-1v-aaE"/>
+                        <outlet property="FirstNameTF" destination="tfe-jv-vWG" id="K8z-Mr-Dpg"/>
+                        <outlet property="FirstnameSV" destination="tMD-d1-FIj" id="hGA-6Q-gt5"/>
+                        <outlet property="LastNameLBL" destination="c9Q-zG-Fed" id="YuO-1B-Gyf"/>
+                        <outlet property="LastNameTF" destination="mt2-uI-Zn4" id="KZy-yw-cjn"/>
+                        <outlet property="NumberSV" destination="yFU-ci-qOS" id="9UL-vy-0nY"/>
+                        <outlet property="NumberTF" destination="jQb-RL-ZEB" id="3Ks-lX-RHb"/>
+                        <outlet property="PasswordLBL" destination="mJX-Rl-h0f" id="azD-50-pJG"/>
+                        <outlet property="PasswordSV" destination="2Ij-tV-O5y" id="XgJ-DM-YIs"/>
+                        <outlet property="PasswordTF" destination="TJB-lR-Ctc" id="7DB-OS-A2X"/>
+                        <outlet property="PhonenumberLBL" destination="mma-ow-hVI" id="jfb-V0-GAb"/>
+                        <outlet property="SecondnameSV" destination="9lx-Sc-gsp" id="qV2-TR-cqk"/>
+                        <outlet property="SignupBTN" destination="rxv-J7-bx2" id="fR2-Ih-o8V"/>
+                        <outlet property="UserNameLBL" destination="8AJ-IV-P68" id="Hs0-Xp-kPk"/>
+                        <outlet property="UserNameTF" destination="beJ-HX-efm" id="biJ-kR-Kah"/>
+                        <outlet property="UsernameSV" destination="vun-wi-5kd" id="DFg-me-bdb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UNx-8E-FTd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

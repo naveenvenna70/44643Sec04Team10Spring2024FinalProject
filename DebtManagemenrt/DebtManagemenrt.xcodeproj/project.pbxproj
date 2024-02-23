@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4A0CC9102B86E53E00779081 /* DebtmanagementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CC90F2B86E53E00779081 /* DebtmanagementVC.swift */; };
+		4A9BFB002B8871E00052EF94 /* DebtsignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9BFAFF2B8871E00052EF94 /* DebtsignupVC.swift */; };
 		82383B472B85841E009F7D3E /* DebtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82383B462B85841E009F7D3E /* DebtVC.swift */; };
 		82383B4A2B858550009F7D3E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 82383B492B858550009F7D3E /* Lottie */; };
 		F551E5A02B82F7D9003224E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551E59F2B82F7D9003224E2 /* AppDelegate.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		4A0CC90F2B86E53E00779081 /* DebtmanagementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtmanagementVC.swift; sourceTree = "<group>"; };
+		4A9BFAFF2B8871E00052EF94 /* DebtsignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtsignupVC.swift; sourceTree = "<group>"; };
 		82383B462B85841E009F7D3E /* DebtVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtVC.swift; sourceTree = "<group>"; };
 		F551E59C2B82F7D9003224E2 /* DebtManagemenrt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebtManagemenrt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F551E59F2B82F7D9003224E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				F551E5A32B82F7D9003224E2 /* ViewController.swift */,
 				82383B462B85841E009F7D3E /* DebtVC.swift */,
 				F551E5A52B82F7DA003224E2 /* Main.storyboard */,
+				4A9BFAFF2B8871E00052EF94 /* DebtsignupVC.swift */,
 				4A0CC90F2B86E53E00779081 /* DebtmanagementVC.swift */,
 				F551E5A82B82F7DC003224E2 /* Assets.xcassets */,
 				F551E5AA2B82F7DC003224E2 /* LaunchScreen.storyboard */,
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F551E5A42B82F7D9003224E2 /* ViewController.swift in Sources */,
+				4A9BFB002B8871E00052EF94 /* DebtsignupVC.swift in Sources */,
 				F551E5A02B82F7D9003224E2 /* AppDelegate.swift in Sources */,
 				F551E5A22B82F7D9003224E2 /* SceneDelegate.swift in Sources */,
 				82383B472B85841E009F7D3E /* DebtVC.swift in Sources */,
