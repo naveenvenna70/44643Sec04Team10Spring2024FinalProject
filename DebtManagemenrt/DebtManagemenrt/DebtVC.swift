@@ -9,6 +9,9 @@ import UIKit
 import Lottie
 
 class DebtVC: UIViewController {
+   
+    
+
     @IBOutlet weak var LaunchLAV: LottieAnimationView!{
         didSet{
             LaunchLAV.animation = .named("Animation")
@@ -20,7 +23,6 @@ class DebtVC: UIViewController {
                     }
                 }
             }
-    
     
     @IBOutlet weak var DebtManagementTV: UIImageView!
     
