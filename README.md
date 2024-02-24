@@ -75,4 +75,51 @@
 * It navigates to the Advice & tips page from home page by tapping the content advise & tips and can return to home page with the back button
 * We provide scroll vertically button feature in the debt tracking, loan estimation, payment schedule, reviews, advice&tips pages to view the complete content of the page.
 
+
+
+  # **Sprint 1:**
+* Naveen Reddy Venna:
+     > Examined the project requirements.
+     > Looked for initiatives that could be put into action.
+     > Generalize and allocate the many project-related roles and responsibilities within a team for the upcoming sprint.
+* Venkateswara Rao Gude:
+     > Examined the project requirements.
+     > Evaluating the people who are seeking loans.
+     > Exploring the required data related to the project.
+* Navyasree Sriperumbudoor:
+    > Examined the project requirements.
+     > We will design and evaluate a few fundamental components.
+     > About UI design and implementation.
+
+
+# **Sprint 2:**
+* Naveen Reddy Venna:
+    > Selecting the required data which is apt for the project.
+    > Gathering the required data about an individual's debt information.
+    > Divided the UI into categories related to the project.
+* Venkateswara Rao Gude:
+     > Analyzing the interests amounts and their dues for each and every client.
+    > Aim to analyze the dataset to determine eligibility for loan amounts and interest rates.
+     > Aim to analyze and organizing database models based on the information obtained from users.
+* Navyasree Sriperumbudoor:
+     > Aim to actively engage in practical exercises related to the development of the front-end components.
+      > Exploring visualization tools that are relevant to the project.
+    > We will create and analyze some basic front end part.
+
+# **Sprint 3:**
+* Naveen Reddy Venna:
+1.    > First Commit - Created the auto layout for the first UI screen by adding all the required labels, text fields, buttons from library.
+1.    > Second Commit - Created the auto layout for the second UI screen by adding all the required labels, text fields, buttons from library.
+1.    > Third Commit - Created the constraints for the third UI screen stack views, labels, text fields by drag & drop also modifying the priority values.
+* Venkateswara Rao Gude:
+1.    > First Commit - Created the constraints for the first UI screen stack views, labels, text fields by drag & drop also modifying the priority values.
+1.    > Second Commit - Created the constraints for the second UI screen stack views, labels, text fields by drag & drop also modifying the priority 
+                     values.
+1.    > Third Commit  - Created the auto layout for the third UI screen by adding all the required labels, text fields, buttons from library.
+* Navyasree Sriperumbudoor:
+1.    > First Commit - Created coco touch class called DebtVC and its outlets for stack views, text fields, buttons etc.
+1.    > Second Commit - Created coco touch class called DebtsignupVC and its outlets for stack views, text fields, buttons etc.
+1.    > Third Commit - Created coco touch class called DebtmanagementVC and its outlets for stack views, text fields, buttons etc. 
+
+
   
