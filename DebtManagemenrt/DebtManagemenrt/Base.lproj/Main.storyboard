@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -20,20 +20,20 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="xMt-AR-7fj" userLabel="BigContainerSV">
                                 <rect key="frame" x="20" y="79" width="353" height="753"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="DebtManagement" translatesAutoresizingMaskIntoConstraints="NO" id="mS8-nY-NoR">
-                                        <rect key="frame" x="0.0" y="0.0" width="353" height="485"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DebtManagement" translatesAutoresizingMaskIntoConstraints="NO" id="mS8-nY-NoR">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="301.33333333333331"/>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="tMD-d1-FIj" userLabel="FirstnameSV">
-                                        <rect key="frame" x="0.0" y="493" width="353" height="20.333333333333371"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="tMD-d1-FIj" userLabel="FirstnameSV">
+                                        <rect key="frame" x="0.0" y="309.33333333333331" width="353" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FirstName:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFn-sc-aYG" userLabel="FirstName">
-                                                <rect key="frame" x="0.0" y="0.0" width="115" height="20.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="115" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="FirstName" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tfe-jv-vWG" userLabel="FirstNameTF">
-                                                <rect key="frame" x="123" y="0.0" width="230" height="20.333333333333332"/>
+                                                <rect key="frame" x="123" y="0.0" width="230" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -42,17 +42,17 @@
                                             <constraint firstItem="tfe-jv-vWG" firstAttribute="width" secondItem="SFn-sc-aYG" secondAttribute="width" multiplier="2" id="2HF-je-GMv"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="9lx-Sc-gsp" userLabel="SecondnameSV">
-                                        <rect key="frame" x="0.0" y="521.33333333333337" width="353" height="20.333333333333371"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="9lx-Sc-gsp" userLabel="SecondnameSV">
+                                        <rect key="frame" x="0.0" y="351.33333333333331" width="353" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lastname:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9Q-zG-Fed" userLabel="LastName">
-                                                <rect key="frame" x="0.0" y="0.0" width="115" height="20.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="115" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="LastName" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mt2-uI-Zn4" userLabel="LastNameTF">
-                                                <rect key="frame" x="123" y="0.0" width="230" height="20.333333333333332"/>
+                                                <rect key="frame" x="123" y="0.0" width="230" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -61,17 +61,17 @@
                                             <constraint firstItem="mt2-uI-Zn4" firstAttribute="width" secondItem="c9Q-zG-Fed" secondAttribute="width" multiplier="2" id="qPz-KA-GC2"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="jhN-OM-KrR" userLabel="EmailSV">
-                                        <rect key="frame" x="0.0" y="549.66666666666663" width="353" height="20.333333333333371"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="jhN-OM-KrR" userLabel="EmailSV">
+                                        <rect key="frame" x="0.0" y="393.33333333333331" width="353" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EmailD:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOo-XC-3VP" userLabel="EmailID">
-                                                <rect key="frame" x="0.0" y="0.0" width="115" height="20.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="115" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Example123@gmail.com" textAlignment="center" minimumFontSize="17" background="EmailID" translatesAutoresizingMaskIntoConstraints="NO" id="G6h-hO-MWr">
-                                                <rect key="frame" x="123" y="0.0" width="230" height="20.333333333333332"/>
+                                                <rect key="frame" x="123" y="0.0" width="230" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -80,8 +80,8 @@
                                             <constraint firstItem="G6h-hO-MWr" firstAttribute="width" secondItem="vOo-XC-3VP" secondAttribute="width" multiplier="2" id="fWd-mM-s9L"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vun-wi-5kd" userLabel="UsernameSV">
-                                        <rect key="frame" x="0.0" y="578" width="353" height="34"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="vun-wi-5kd" userLabel="UsernameSV">
+                                        <rect key="frame" x="0.0" y="435.33333333333337" width="353" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UserName:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8AJ-IV-P68">
                                                 <rect key="frame" x="0.0" y="0.0" width="115" height="34"/>
@@ -99,8 +99,8 @@
                                             <constraint firstItem="beJ-HX-efm" firstAttribute="width" secondItem="8AJ-IV-P68" secondAttribute="width" multiplier="2" id="bMu-Cc-WLW"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="yFU-ci-qOS" userLabel="NumberSV">
-                                        <rect key="frame" x="0.0" y="620" width="353" height="34"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="yFU-ci-qOS" userLabel="NumberSV">
+                                        <rect key="frame" x="0.0" y="477.33333333333337" width="353" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone no:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mma-ow-hVI">
                                                 <rect key="frame" x="0.0" y="0.0" width="88" height="34"/>
@@ -123,17 +123,17 @@
                                             <constraint firstItem="mma-ow-hVI" firstAttribute="width" secondItem="qE0-Tx-tNb" secondAttribute="width" multiplier="2" id="7JK-aV-a9M"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="2Ij-tV-O5y" userLabel="PasswordSV">
-                                        <rect key="frame" x="0.0" y="662" width="353" height="20.333333333333371"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="2Ij-tV-O5y" userLabel="PasswordSV">
+                                        <rect key="frame" x="0.0" y="519.33333333333337" width="353" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJX-Rl-h0f">
-                                                <rect key="frame" x="0.0" y="0.0" width="115" height="20.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="115" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TJB-lR-Ctc" userLabel="PasswordTF">
-                                                <rect key="frame" x="123" y="0.0" width="230" height="20.333333333333332"/>
+                                                <rect key="frame" x="123" y="0.0" width="230" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -142,17 +142,17 @@
                                             <constraint firstItem="TJB-lR-Ctc" firstAttribute="width" secondItem="mJX-Rl-h0f" secondAttribute="width" multiplier="2" id="m0C-Am-2EY"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="OC5-OX-bFr" userLabel="ConfirmSV">
-                                        <rect key="frame" x="0.0" y="690.33333333333337" width="353" height="20.333333333333371"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="OC5-OX-bFr" userLabel="ConfirmSV">
+                                        <rect key="frame" x="0.0" y="561.33333333333337" width="353" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ConfirmUser" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3K-lf-F3O" userLabel="ConfirmUserName">
-                                                <rect key="frame" x="0.0" y="0.0" width="115" height="20.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="115" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ConfirmUserName" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jr0-0Z-ZBt" userLabel="ConfirmUserNameTF">
-                                                <rect key="frame" x="123" y="0.0" width="230" height="20.333333333333332"/>
+                                                <rect key="frame" x="123" y="0.0" width="230" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -161,8 +161,8 @@
                                             <constraint firstItem="jr0-0Z-ZBt" firstAttribute="width" secondItem="H3K-lf-F3O" secondAttribute="width" multiplier="2" id="TVo-fc-bF5"/>
                                         </constraints>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxv-J7-bx2" userLabel="Signup/createUser">
-                                        <rect key="frame" x="0.0" y="718.66666666666663" width="353" height="34.333333333333371"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxv-J7-bx2" userLabel="Signup/createUser">
+                                        <rect key="frame" x="0.0" y="603.33333333333337" width="353" height="149.66666666666663"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Signup"/>
                                     </button>
@@ -439,10 +439,10 @@
             </objects>
             <point key="canvasLocation" x="-836" y="-646"/>
         </scene>
-        <!--View Controller-->
+        <!--Debt TrackingVC-->
         <scene sceneID="CmI-MD-EJn">
             <objects>
-                <viewController id="btW-oi-1oh" sceneMemberID="viewController">
+                <viewController id="btW-oi-1oh" customClass="DebtTrackingVC" customModule="DebtManagemenrt" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZfC-0w-Ml7">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -466,6 +466,9 @@
                                                         <rect key="frame" x="154" y="0.0" width="219" height="20.333333333333332"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="ServiceNo:" destination="btW-oi-1oh" eventType="editingDidEnd" id="6AP-vV-dF3"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
@@ -485,6 +488,9 @@
                                                         <rect key="frame" x="154" y="0.0" width="219" height="20.333333333333332"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="LoanIssuedDate:" destination="btW-oi-1oh" eventType="editingDidEnd" id="Tae-p8-27M"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
@@ -504,25 +510,31 @@
                                                         <rect key="frame" x="154" y="0.0" width="219" height="20.333333333333332"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="LoanAmount:" destination="btW-oi-1oh" eventType="editingDidEnd" id="nu4-N1-v7E"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstItem="IMs-MR-NBg" firstAttribute="width" secondItem="XgH-UI-AIh" secondAttribute="width" multiplier="1.5" id="DCY-oR-mU5"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="nYg-2B-MTR" userLabel="IntrestRateSV">
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="nYg-2B-MTR" userLabel="InterestRateSV">
                                                 <rect key="frame" x="0.0" y="85" width="373" height="20.333333333333329"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Intrest Rate:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHb-zC-4LQ">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Intrest Rate:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHb-zC-4LQ" userLabel="Interest Rate:">
                                                         <rect key="frame" x="0.0" y="0.0" width="146" height="20.333333333333332"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MfB-s8-Sej" userLabel="InterstRateTF">
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MfB-s8-Sej" userLabel="InterestRateTF">
                                                         <rect key="frame" x="154" y="0.0" width="219" height="20.333333333333332"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="InterestRate:" destination="btW-oi-1oh" eventType="editingDidEnd" id="pMP-jn-Ijy"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
@@ -542,6 +554,9 @@
                                                         <rect key="frame" x="154" y="0.0" width="219" height="20.333333333333332"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="Principle:" destination="btW-oi-1oh" eventType="editingDidEnd" id="BdL-sS-GFM"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
@@ -561,6 +576,9 @@
                                                         <rect key="frame" x="154" y="0.0" width="219" height="20.333333333333332"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="NoofYears:" destination="btW-oi-1oh" eventType="editingDidEnd" id="0Ke-S9-20A"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
@@ -580,6 +598,9 @@
                                                         <rect key="frame" x="154" y="0.0" width="219" height="20.333333333333332"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="NoofInstallment:" destination="btW-oi-1oh" eventType="editingDidEnd" id="Cyf-FT-BRe"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
@@ -599,6 +620,9 @@
                                                         <rect key="frame" x="160" y="0.0" width="213" height="20.333333333333332"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="RemainingBalance:" destination="btW-oi-1oh" eventType="editingDidEnd" id="LFg-X3-Fgf"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
@@ -618,6 +642,9 @@
                                                         <rect key="frame" x="167.33333333333337" y="0.0" width="205.66666666666663" height="20.333333333333332"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="CalcAmount:" destination="btW-oi-1oh" eventType="editingDidEnd" id="KVJ-KI-t1e"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
@@ -637,6 +664,9 @@
                                                         <rect key="frame" x="154" y="0.0" width="219" height="20.333333333333332"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="TypeofLoan:" destination="btW-oi-1oh" eventType="editingDidEnd" id="TPQ-u5-Oid"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
@@ -656,6 +686,9 @@
                                                         <rect key="frame" x="154" y="0.0" width="219" height="20.333333333333332"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="NoofMonths:" destination="btW-oi-1oh" eventType="editingDidEnd" id="m8r-rX-XDs"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
@@ -675,6 +708,9 @@
                                                         <rect key="frame" x="154" y="0.0" width="219" height="29"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="InterestAmount:" destination="btW-oi-1oh" eventType="editingDidEnd" id="Xkp-c5-csM"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
@@ -694,6 +730,9 @@
                                                         <rect key="frame" x="170.33333333333337" y="0.0" width="202.66666666666663" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <connections>
+                                                            <action selector="TypeofInstallment:" destination="btW-oi-1oh" eventType="editingDidEnd" id="40m-FB-i1i"/>
+                                                        </connections>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
@@ -720,6 +759,49 @@
                             <constraint firstAttribute="bottom" secondItem="3HE-MS-E8c" secondAttribute="bottom" constant="10" id="tJs-I6-cUs"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="BigContainerSV" destination="3HE-MS-E8c" id="vhT-Xa-X5p"/>
+                        <outlet property="CalcAmTF" destination="BSb-Sh-GIT" id="K87-e6-OZk"/>
+                        <outlet property="CalcAmorintLBL" destination="VUo-dK-bHk" id="nZe-Iv-4kW"/>
+                        <outlet property="CalcAmtSV" destination="kts-jW-TZM" id="L7d-0x-0Rc"/>
+                        <outlet property="InterestRateLBL" destination="vHb-zC-4LQ" id="GPf-ly-4om"/>
+                        <outlet property="InterestRateSV" destination="nYg-2B-MTR" id="NYK-LV-bhu"/>
+                        <outlet property="InterestRateTF" destination="MfB-s8-Sej" id="AgM-qi-S3F"/>
+                        <outlet property="LoanAmountLBL" destination="XgH-UI-AIh" id="g0G-Fn-zwC"/>
+                        <outlet property="LoanAmountTF" destination="IMs-MR-NBg" id="YGm-sm-5AP"/>
+                        <outlet property="LoanAmtSV" destination="phc-lg-KtX" id="mdP-8d-38n"/>
+                        <outlet property="LoanDateSV" destination="kce-x3-bsy" id="W9S-11-edK"/>
+                        <outlet property="LoanIssuedDate" destination="Ulr-qi-bGy" id="Oze-Vr-1Is"/>
+                        <outlet property="LoanIssuedDateTF" destination="SKJ-1z-aNU" id="QJJ-bU-jfU"/>
+                        <outlet property="NoMonthSV" destination="3Dr-qQ-pGW" id="Ofu-PI-3ag"/>
+                        <outlet property="NoOfInstallmentTF" destination="JSn-bn-anm" id="ZXh-oB-uFr"/>
+                        <outlet property="NoOfInstallmentsLBL" destination="3k3-I7-qGF" id="02P-xu-Tds"/>
+                        <outlet property="NoOfYearsLBL" destination="bf3-RE-KXu" id="YzF-uS-dUl"/>
+                        <outlet property="NoOfYearsSV" destination="7DK-63-evS" id="O4F-w0-X3J"/>
+                        <outlet property="NoOfYearsTF" destination="UcZ-df-fmb" id="qvC-0a-k1n"/>
+                        <outlet property="NoofMonthsLBL" destination="0i4-Yq-s3A" id="LK5-5g-oPN"/>
+                        <outlet property="NoofMonthsTF" destination="e96-Dh-oXt" id="sGR-Oz-WmH"/>
+                        <outlet property="PickerView" destination="B8h-fO-SP7" id="DE4-7J-H5m"/>
+                        <outlet property="PrincipleLBL" destination="gaQ-fo-miF" id="Rlg-bm-vZn"/>
+                        <outlet property="PrincipleSV" destination="Ur8-Q9-MaK" id="Dda-u5-sXe"/>
+                        <outlet property="PrincipleTF" destination="6rp-Vy-BTS" id="5cs-i1-eOa"/>
+                        <outlet property="RemainingBalanceLBL" destination="2D7-E7-4gk" id="3U3-En-NAU"/>
+                        <outlet property="RemainingBalanceTF" destination="Pui-5J-SIu" id="GJC-CC-F14"/>
+                        <outlet property="RemainingBlcSV" destination="QoK-8l-IgQ" id="4MY-wC-pha"/>
+                        <outlet property="ServiceNO" destination="Oci-qZ-92f" id="cnZ-8o-1Nv"/>
+                        <outlet property="ServiceNOSV" destination="Eas-Cm-5Rt" id="EzH-FW-TUG"/>
+                        <outlet property="ServiceNoTF" destination="uLP-RK-kIw" id="c1K-Zm-kfq"/>
+                        <outlet property="TypeInstallmentSV" destination="G8H-rm-MWf" id="iiI-ao-7fH"/>
+                        <outlet property="TypeLoanSV" destination="dhQ-h7-Xlx" id="u1g-T6-0wF"/>
+                        <outlet property="TypeofInstallmentLBL" destination="wtc-Aw-En5" id="BI9-by-5bT"/>
+                        <outlet property="TypeofInstallmentTF" destination="4lD-dk-7PX" id="LRM-t2-Ohu"/>
+                        <outlet property="TypeofLoanLBL" destination="pjW-r7-j4r" id="waY-bQ-ekl"/>
+                        <outlet property="TypeofLoanTF" destination="s1u-Iq-Imp" id="qyV-4o-2Y3"/>
+                        <outlet property="UserInterfaceSV" destination="zTX-Fv-GBL" id="5b9-1z-4AH"/>
+                        <outlet property="interestAmountTF" destination="3hB-gD-Lzm" id="Ehn-b6-pEg"/>
+                        <outlet property="interestAmtSV" destination="EIL-ve-GUd" id="SJ7-93-Ep6"/>
+                        <outlet property="noofInstallmentSV" destination="QS2-8K-pj2" id="dJ1-TD-eq0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mbs-Tz-uu4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
