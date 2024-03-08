@@ -12,6 +12,7 @@
 		4A9BFB002B8871E00052EF94 /* DebtsignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9BFAFF2B8871E00052EF94 /* DebtsignupVC.swift */; };
 		82383B472B85841E009F7D3E /* DebtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82383B462B85841E009F7D3E /* DebtVC.swift */; };
 		82383B4A2B858550009F7D3E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 82383B492B858550009F7D3E /* Lottie */; };
+		82ADCAC02B9B9A19003B7420 /* PaymentScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ADCABF2B9B9A19003B7420 /* PaymentScheduleVC.swift */; };
 		F551E5A02B82F7D9003224E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551E59F2B82F7D9003224E2 /* AppDelegate.swift */; };
 		F551E5A22B82F7D9003224E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551E5A12B82F7D9003224E2 /* SceneDelegate.swift */; };
 		F551E5A42B82F7D9003224E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551E5A32B82F7D9003224E2 /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 		4A672AB12B9910EB00695E38 /* DebtTrackingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtTrackingVC.swift; sourceTree = "<group>"; };
 		4A9BFAFF2B8871E00052EF94 /* DebtsignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtsignupVC.swift; sourceTree = "<group>"; };
 		82383B462B85841E009F7D3E /* DebtVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtVC.swift; sourceTree = "<group>"; };
+		82ADCABF2B9B9A19003B7420 /* PaymentScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentScheduleVC.swift; sourceTree = "<group>"; };
 		F551E59C2B82F7D9003224E2 /* DebtManagemenrt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebtManagemenrt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F551E59F2B82F7D9003224E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F551E5A12B82F7D9003224E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				F551E59F2B82F7D9003224E2 /* AppDelegate.swift */,
 				F551E5A12B82F7D9003224E2 /* SceneDelegate.swift */,
 				F551E5A32B82F7D9003224E2 /* ViewController.swift */,
+				82ADCABF2B9B9A19003B7420 /* PaymentScheduleVC.swift */,
 				82383B462B85841E009F7D3E /* DebtVC.swift */,
 				F551E5A52B82F7DA003224E2 /* Main.storyboard */,
 				4A672AB12B9910EB00695E38 /* DebtTrackingVC.swift */,
@@ -284,6 +287,7 @@
 				F551E5A22B82F7D9003224E2 /* SceneDelegate.swift in Sources */,
 				82383B472B85841E009F7D3E /* DebtVC.swift in Sources */,
 				4A672AB22B9910EB00695E38 /* DebtTrackingVC.swift in Sources */,
+				82ADCAC02B9B9A19003B7420 /* PaymentScheduleVC.swift in Sources */,
 				4A0CC9102B86E53E00779081 /* DebtmanagementVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
