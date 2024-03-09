@@ -119,7 +119,25 @@
 * Navyasree Sriperumbudoor:
 1.    > First Commit - Created coco touch class called DebtVC and its outlets for stack views, text fields, buttons etc.
 1.    > Second Commit - Created coco touch class called DebtsignupVC and its outlets for stack views, text fields, buttons etc.
-1.    > Third Commit - Created coco touch class called DebtmanagementVC and its outlets for stack views, text fields, buttons etc. 
+1.    > Third Commit - Created coco touch class called DebtmanagementVC and its outlets for stack views, text fields, buttons etc.
+      
+
+
+
+
+# **Sprint 4:**
+* Naveen Reddy Venna:
+1.    > First Commit -  Created the constraints for the fourth UI screen stack views, labels, text fields by drag & drop also modifying the priority values.
+1.    > Second Commit -  Created the auto layout for the fifth UI screen by adding all the required labels, text fields, buttons from library.
+1.    > Third Commit -  Created the constraints for the sixth UI screen stack views, labels, text fields by drag & drop also modifying the priority values.
+* Venkateswara Rao Gude:
+1.    > First Commit -  Created the auto layout for the fourth UI screen by adding all the required labels, text fields, buttons from library.
+1.    > Second Commit - Created coco touch class called PaymentScheduleVC and its outlets for stack views, text fields, buttons etc.            
+1.    > Third Commit  -  Created the auto layout for the sixth UI screen by adding all the required labels, text fields, buttons from library.
+* Navyasree Sriperumbudoor:
+1.    > First Commit -  Created coco touch class called DebtTrackingVC and its outlets for stack views, text fields, buttons etc.
+1.    > Second Commit - Created the constraints for the fifth UI screen stack views, labels, text fields by drag & drop also modifying the priority values.
+1.    > Third Commit -  Created coco touch class called LoanEstimationVC and its outlets for stack views, text fields, buttons etc.
 
 
   
