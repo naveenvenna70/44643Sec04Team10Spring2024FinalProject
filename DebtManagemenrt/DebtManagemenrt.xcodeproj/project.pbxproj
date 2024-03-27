@@ -10,6 +10,7 @@
 		4A0CC9102B86E53E00779081 /* DebtmanagementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CC90F2B86E53E00779081 /* DebtmanagementVC.swift */; };
 		4A3A743B2B9BD4CE00A0BFC0 /* LoanEstimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A743A2B9BD4CE00A0BFC0 /* LoanEstimationVC.swift */; };
 		4A672AB22B9910EB00695E38 /* DebtTrackingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A672AB12B9910EB00695E38 /* DebtTrackingVC.swift */; };
+		4A8016652BB3D6BB00C84030 /* ReviewpageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8016642BB3D6BB00C84030 /* ReviewpageVC.swift */; };
 		4A9BFB002B8871E00052EF94 /* DebtsignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9BFAFF2B8871E00052EF94 /* DebtsignupVC.swift */; };
 		82383B472B85841E009F7D3E /* DebtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82383B462B85841E009F7D3E /* DebtVC.swift */; };
 		82383B4A2B858550009F7D3E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 82383B492B858550009F7D3E /* Lottie */; };
@@ -46,6 +47,7 @@
 		4A0CC90F2B86E53E00779081 /* DebtmanagementVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtmanagementVC.swift; sourceTree = "<group>"; };
 		4A3A743A2B9BD4CE00A0BFC0 /* LoanEstimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanEstimationVC.swift; sourceTree = "<group>"; };
 		4A672AB12B9910EB00695E38 /* DebtTrackingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtTrackingVC.swift; sourceTree = "<group>"; };
+		4A8016642BB3D6BB00C84030 /* ReviewpageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewpageVC.swift; sourceTree = "<group>"; };
 		4A9BFAFF2B8871E00052EF94 /* DebtsignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtsignupVC.swift; sourceTree = "<group>"; };
 		82383B462B85841E009F7D3E /* DebtVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtVC.swift; sourceTree = "<group>"; };
 		82ADCABF2B9B9A19003B7420 /* PaymentScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentScheduleVC.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				82ADCABF2B9B9A19003B7420 /* PaymentScheduleVC.swift */,
 				82383B462B85841E009F7D3E /* DebtVC.swift */,
 				F551E5A52B82F7DA003224E2 /* Main.storyboard */,
+				4A8016642BB3D6BB00C84030 /* ReviewpageVC.swift */,
 				4A3A743A2B9BD4CE00A0BFC0 /* LoanEstimationVC.swift */,
 				4A672AB12B9910EB00695E38 /* DebtTrackingVC.swift */,
 				4A9BFAFF2B8871E00052EF94 /* DebtsignupVC.swift */,
@@ -287,6 +290,7 @@
 				F551E5A42B82F7D9003224E2 /* ViewController.swift in Sources */,
 				4A9BFB002B8871E00052EF94 /* DebtsignupVC.swift in Sources */,
 				4A3A743B2B9BD4CE00A0BFC0 /* LoanEstimationVC.swift in Sources */,
+				4A8016652BB3D6BB00C84030 /* ReviewpageVC.swift in Sources */,
 				F551E5A02B82F7D9003224E2 /* AppDelegate.swift in Sources */,
 				F551E5A22B82F7D9003224E2 /* SceneDelegate.swift in Sources */,
 				82383B472B85841E009F7D3E /* DebtVC.swift in Sources */,
