@@ -50,6 +50,7 @@ class DebtVC: UIViewController {
     @IBOutlet weak var RegisterBTN: UIButton!
     
     
+    @IBOutlet weak var MessageLBL: UILabel!
     
     
     override func viewDidLoad() {
@@ -58,8 +59,55 @@ class DebtVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func LoginBTN(_ sender: Any) {
+        resetForm()
+    }
     
     
+    @IBAction func Username(_ sender: Any) {
+        if let Username = usernameTF.text{
+                    if let message = inValidEmail(Username){
+                        MessageLBL.text = message
+                        MessageLBL.isHidden = false
+                    }
+                    else
+                    
+                    {
+                        MessageLBL.isHidden = true
+                    }
+                }
+                checkvalid()
+    }
+    func checkvalid()
+        {
+            if MessageLBL.isHidden == true
+            {
+                LOGINBTN.isEnabled = true
+            }else{
+                LOGINBTN.isEnabled = false
+            }
+        }
+    func inValidEmail(_ value: String) -> String?
+        {
+            let emailRegularExp =  "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
+            let predicate = NSPredicate(format: "SELF MATCHES %@", emailRegularExp)
+            if !predicate.evaluate(with: value )
+            {
+                return "Invalid Email Address "
+            }
+            return nil
+        }
+    func resetForm()
+        {
+            LOGINBTN.isEnabled = false
+            MessageLBL.isHidden = false
+            MessageLBL.text = "Required to fill the fields"
+            
+            usernameTF.text = ""
+            PasswordTF.text = ""
+            
+            
+        }
     
     
     
