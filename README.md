@@ -140,4 +140,19 @@
 1.    > Third Commit -  Created coco touch class called LoanEstimationVC and its outlets for stack views, text fields, buttons etc.
 
 
+
+
+# **Sprint 5:**
+* Naveen Reddy Venna:
+1.    > First Commit -   Created the seventh UI screen called Review Page and given constraints for its stack views, labels, text fields by drag & drop also modifying the priority values.
+1.    > Second Commit -  Implemented the username & message functionality for the DebtVC login page.
+1.    > Third Commit -   Created coco touch class called CalendarVC and connected its outlets for stack views, text fields, buttons etc.
+* Venkateswara Rao Gude:
+1.    > First Commit -   Created the eighth UI screen called Advice Page and given constraints for its stack views, labels, text fields by drag & drop also modifying the priority values.
+1.    > Second Commit -  Created coco touch class called AdvicePage for the eighth UI screen.           
+1.    > Third Commit  -  Created the segue connections for the screens.
+* Navyasree Sriperumbudoor:
+1.    > First Commit -  Created coco touch class called ReviewPageVC and connected its outlets for stack views, text fields, buttons etc.
+1.    > Second Commit - Outlets and actions have been created for the labels, stack views , buttons of the Advice Page.
+1.    > Third Commit -  Created the ninth UI screen called Calendar Page and given the constraints for its labels, stack views & buttons etc.
   
