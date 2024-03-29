@@ -8,12 +8,47 @@
 import UIKit
 
 class AdvicePage: UIViewController {
+    
+    
+    
+    @IBOutlet weak var Methods: UITextField!
+    
+    
+    
+    @IBOutlet weak var Strategies: UITextField!
+    
+    
+    @IBOutlet weak var CreditScore: UITextField!
+    
+    
+    
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+    
+    
+    
+    
+    @IBAction func MethodsToFollow(_ sender: UITextField) {
+    }
+    
+    
+    @IBAction func PlanningStrategies(_ sender: UITextField) {
+    }
+    
+    
+    
+    @IBAction func CreditScore(_ sender: UITextField) {
+    }
+    
+    
     
 
     /*
