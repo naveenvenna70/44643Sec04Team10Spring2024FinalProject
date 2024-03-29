@@ -207,7 +207,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UNx-8E-FTd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-123" y="37"/>
+            <point key="canvasLocation" x="692" y="120"/>
         </scene>
         <!--Loan EstimationVC-->
         <scene sceneID="KhA-tM-b3e">
@@ -441,7 +441,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QdQ-bn-oAI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1524" y="-287"/>
+            <point key="canvasLocation" x="-1946" y="-746"/>
         </scene>
         <!--DebtVC-->
         <scene sceneID="tne-QT-ifu">
@@ -564,7 +564,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-758" y="120"/>
+            <point key="canvasLocation" x="-260" y="94"/>
         </scene>
         <!--DebtmanagementVC-->
         <scene sceneID="hTU-4Y-XL0">
@@ -679,7 +679,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u32-an-nS7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1642" y="15"/>
+            <point key="canvasLocation" x="-2141" y="140"/>
         </scene>
         <!--ReviewpageVC-->
         <scene sceneID="wuL-y4-yA4">
@@ -1336,7 +1336,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dla-bn-9cR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-462" y="-287"/>
+            <point key="canvasLocation" x="-303" y="-746"/>
         </scene>
         <!--Advice Page-->
         <scene sceneID="HCN-Em-fRs">
@@ -1387,12 +1387,91 @@
             </objects>
             <point key="canvasLocation" x="-2869.4656488549617" y="-2202.1126760563379"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="FXi-ix-oiz">
+            <objects>
+                <viewController id="yqA-pe-KXU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vCR-bV-7d7">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="a98-2q-Ker" userLabel="BigContainerSV">
+                                <rect key="frame" x="30" y="89" width="333" height="699"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KSL-d7-fty" userLabel="CalendarLV" customClass="FSCalendar">
+                                        <rect key="frame" x="0.0" y="0.0" width="333" height="543.33333333333337"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="kiY-VP-8Gk" userLabel="SegmentCtrl">
+                                        <rect key="frame" x="0.0" y="551.33333333333337" width="333" height="70.666666666666629"/>
+                                        <segments>
+                                            <segment title="Week"/>
+                                            <segment title="Month"/>
+                                        </segments>
+                                        <color key="selectedSegmentTintColor" systemColor="systemYellowColor"/>
+                                    </segmentedControl>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="uzi-pm-TLc" userLabel="ActionSV">
+                                        <rect key="frame" x="0.0" y="629" width="333" height="70"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rvf-v6-cLC" userLabel="PrevBTN">
+                                                <rect key="frame" x="0.0" y="0.0" width="162.66666666666666" height="70"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Prev Month" cornerStyle="capsule">
+                                                    <backgroundConfiguration key="background">
+                                                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                                                    </backgroundConfiguration>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yqt-1K-QjK" userLabel="NextBTN">
+                                                <rect key="frame" x="170.66666666666663" y="0.0" width="162.33333333333337" height="70"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Next Month" cornerStyle="capsule">
+                                                    <backgroundConfiguration key="background">
+                                                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                                                    </backgroundConfiguration>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="uzi-pm-TLc" firstAttribute="width" secondItem="a98-2q-Ker" secondAttribute="width" multiplier="0.5" id="5hY-jC-HBU"/>
+                                    <constraint firstItem="KSL-d7-fty" firstAttribute="height" secondItem="a98-2q-Ker" secondAttribute="height" priority="750" id="Fqe-mU-tkX"/>
+                                    <constraint firstItem="kiY-VP-8Gk" firstAttribute="width" secondItem="a98-2q-Ker" secondAttribute="width" multiplier="0.3" priority="750" id="emk-B2-fHA"/>
+                                    <constraint firstItem="KSL-d7-fty" firstAttribute="width" secondItem="a98-2q-Ker" secondAttribute="width" multiplier="0.2" priority="750" id="eoh-Vk-o0M"/>
+                                    <constraint firstItem="uzi-pm-TLc" firstAttribute="height" secondItem="a98-2q-Ker" secondAttribute="height" multiplier="0.1" id="fYy-hI-rSO"/>
+                                    <constraint firstItem="kiY-VP-8Gk" firstAttribute="height" secondItem="a98-2q-Ker" secondAttribute="height" multiplier="0.1" priority="750" id="qmP-vv-SKd"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OUs-HD-LWU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="a98-2q-Ker" firstAttribute="top" secondItem="OUs-HD-LWU" secondAttribute="top" constant="30" id="5ye-Vw-2Rz"/>
+                            <constraint firstAttribute="trailing" secondItem="a98-2q-Ker" secondAttribute="trailing" constant="30" id="8os-Cn-ifI"/>
+                            <constraint firstItem="a98-2q-Ker" firstAttribute="leading" secondItem="OUs-HD-LWU" secondAttribute="leading" constant="30" id="qcb-cU-Oo5"/>
+                            <constraint firstItem="OUs-HD-LWU" firstAttribute="bottom" secondItem="a98-2q-Ker" secondAttribute="bottom" constant="30" id="yPX-OK-jtH"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cf1-1S-Xtj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1735" y="828"/>
+        </scene>
     </scenes>
     <resources>
         <image name="DebtManagement" width="2013" height="2048"/>
         <image name="EmailID" width="128" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

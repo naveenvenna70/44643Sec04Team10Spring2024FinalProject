@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4A0CC9102B86E53E00779081 /* DebtmanagementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CC90F2B86E53E00779081 /* DebtmanagementVC.swift */; };
+		4A153C712BB777FA002BDA5A /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 4A153C702BB777FA002BDA5A /* FSCalendar */; };
 		4A3A743B2B9BD4CE00A0BFC0 /* LoanEstimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A743A2B9BD4CE00A0BFC0 /* LoanEstimationVC.swift */; };
 		4A672AB22B9910EB00695E38 /* DebtTrackingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A672AB12B9910EB00695E38 /* DebtTrackingVC.swift */; };
 		4A8016652BB3D6BB00C84030 /* ReviewpageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8016642BB3D6BB00C84030 /* ReviewpageVC.swift */; };
@@ -74,6 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82383B4A2B858550009F7D3E /* Lottie in Frameworks */,
+				4A153C712BB777FA002BDA5A /* FSCalendar in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +173,7 @@
 			name = DebtManagemenrt;
 			packageProductDependencies = (
 				82383B492B858550009F7D3E /* Lottie */,
+				4A153C702BB777FA002BDA5A /* FSCalendar */,
 			);
 			productName = DebtManagemenrt;
 			productReference = F551E59C2B82F7D9003224E2 /* DebtManagemenrt.app */;
@@ -246,6 +249,7 @@
 			mainGroup = F551E5932B82F7D9003224E2;
 			packageReferences = (
 				82383B482B858550009F7D3E /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				4A153C6F2BB777FA002BDA5A /* XCRemoteSwiftPackageReference "FSCalendar" */,
 			);
 			productRefGroup = F551E59D2B82F7D9003224E2 /* Products */;
 			projectDirPath = "";
@@ -643,6 +647,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		4A153C6F2BB777FA002BDA5A /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.4;
+			};
+		};
 		82383B482B858550009F7D3E /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
@@ -654,6 +666,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		4A153C702BB777FA002BDA5A /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A153C6F2BB777FA002BDA5A /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
 		82383B492B858550009F7D3E /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 82383B482B858550009F7D3E /* XCRemoteSwiftPackageReference "lottie-ios" */;
