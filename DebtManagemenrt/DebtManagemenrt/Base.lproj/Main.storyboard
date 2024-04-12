@@ -590,18 +590,18 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="SAc-7i-lai" userLabel="DebtButtonsSV">
                                                 <rect key="frame" x="0.0" y="0.0" width="353" height="167"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yo8-Pb-XQZ">
+                                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yo8-Pb-XQZ">
                                                         <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="167"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Debt Track"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Debt Track" image="debt track"/>
                                                         <connections>
                                                             <segue destination="F6x-BP-t6G" kind="show" identifier="ShowtoDebttrack" id="9Rd-WU-l4g"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYg-bN-P2p">
+                                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYg-bN-P2p">
                                                         <rect key="frame" x="180.66666666666663" y="0.0" width="172.33333333333337" height="167"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Loan Estimation"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Loan Estimation" image="loan estimate"/>
                                                         <connections>
                                                             <segue destination="dJM-M1-Ce5" kind="show" identifier="ShowtoLoanEstimate" id="YgC-3S-1Oj"/>
                                                         </connections>
@@ -611,20 +611,18 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="CER-Aa-JXK" userLabel="ScheduleSV">
                                                 <rect key="frame" x="0.0" y="175.00000000000006" width="353" height="166.66666666666669"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lDa-rm-fme">
+                                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lDa-rm-fme">
                                                         <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="166.66666666666666"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Payment Schedule"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Payment Schedule" image="payment schedule"/>
                                                         <connections>
                                                             <segue destination="LhD-bJ-2U6" kind="show" identifier="ShowtoPayment" id="vGi-8y-hQh"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BvV-ye-v8L">
-                                                        <rect key="frame" x="180.66666666666663" y="0.0" width="172.33333333333337" height="166.66666666666666"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Calender" cornerStyle="medium">
-                                                            <backgroundConfiguration key="background" image="calendar" catalog="system"/>
-                                                        </buttonConfiguration>
+                                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BvV-ye-v8L">
+                                                        <rect key="frame" x="180.66666666666663" y="1.6666666666666714" width="172.33333333333337" height="163.66666666666669"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Calender" image="calendar" backgroundImage="calendar" catalog="system"/>
                                                         <connections>
                                                             <segue destination="pls-AR-Wqs" kind="show" identifier="ShowtoCalendar" id="oWI-IU-fO8"/>
                                                         </connections>
@@ -1463,7 +1461,11 @@
     <resources>
         <image name="DebtManagement" width="2013" height="2048"/>
         <image name="EmailID" width="128" height="128"/>
+        <image name="calendar" width="736" height="552"/>
         <image name="calendar" catalog="system" width="128" height="107"/>
+        <image name="debt track" width="791" height="1024"/>
+        <image name="loan estimate" width="612" height="612"/>
+        <image name="payment schedule" width="595" height="842"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
