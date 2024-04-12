@@ -13,6 +13,7 @@
 		4A672AB22B9910EB00695E38 /* DebtTrackingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A672AB12B9910EB00695E38 /* DebtTrackingVC.swift */; };
 		4A8016652BB3D6BB00C84030 /* ReviewpageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8016642BB3D6BB00C84030 /* ReviewpageVC.swift */; };
 		4A9BFB002B8871E00052EF94 /* DebtsignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9BFAFF2B8871E00052EF94 /* DebtsignupVC.swift */; };
+		4AAF5E032BC90EF300DE0C49 /* Eureka in Frameworks */ = {isa = PBXBuildFile; productRef = 4AAF5E022BC90EF300DE0C49 /* Eureka */; };
 		82383B472B85841E009F7D3E /* DebtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82383B462B85841E009F7D3E /* DebtVC.swift */; };
 		82383B4A2B858550009F7D3E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 82383B492B858550009F7D3E /* Lottie */; };
 		82A1BF342BC84CFD00F797E1 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A1BF332BC84CFD00F797E1 /* CalendarVC.swift */; };
@@ -78,6 +79,7 @@
 			files = (
 				82383B4A2B858550009F7D3E /* Lottie in Frameworks */,
 				4A153C712BB777FA002BDA5A /* FSCalendar in Frameworks */,
+				4AAF5E032BC90EF300DE0C49 /* Eureka in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +179,7 @@
 			packageProductDependencies = (
 				82383B492B858550009F7D3E /* Lottie */,
 				4A153C702BB777FA002BDA5A /* FSCalendar */,
+				4AAF5E022BC90EF300DE0C49 /* Eureka */,
 			);
 			productName = DebtManagemenrt;
 			productReference = F551E59C2B82F7D9003224E2 /* DebtManagemenrt.app */;
@@ -253,6 +256,7 @@
 			packageReferences = (
 				82383B482B858550009F7D3E /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				4A153C6F2BB777FA002BDA5A /* XCRemoteSwiftPackageReference "FSCalendar" */,
+				4AAF5E012BC90EF300DE0C49 /* XCRemoteSwiftPackageReference "Eureka" */,
 			);
 			productRefGroup = F551E59D2B82F7D9003224E2 /* Products */;
 			projectDirPath = "";
@@ -659,6 +663,14 @@
 				minimumVersion = 2.8.4;
 			};
 		};
+		4AAF5E012BC90EF300DE0C49 /* XCRemoteSwiftPackageReference "Eureka" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/xmartlabs/Eureka.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
 		82383B482B858550009F7D3E /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
@@ -674,6 +686,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4A153C6F2BB777FA002BDA5A /* XCRemoteSwiftPackageReference "FSCalendar" */;
 			productName = FSCalendar;
+		};
+		4AAF5E022BC90EF300DE0C49 /* Eureka */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4AAF5E012BC90EF300DE0C49 /* XCRemoteSwiftPackageReference "Eureka" */;
+			productName = Eureka;
 		};
 		82383B492B858550009F7D3E /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
