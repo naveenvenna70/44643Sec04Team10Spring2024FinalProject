@@ -110,6 +110,63 @@ class DebtVC: UIViewController {
         }
     
     
+    @IBAction func PasswordTF(_ sender: Any) {
+        if let password = PasswordTF.text{
+            if let message = inValidPassword(password){
+                MessageLBL.text = message
+                MessageLBL.isHidden = false
+            }
+            else
+            
+            {
+                MessageLBL.isHidden = true
+            }
+        }
+        checkvalid()
+        
+    }
+        
+        
+        
+    }
+    func inValidPassword(_ value: String) -> String?
+        {
+            if value.count < 8
+            {
+                return "Password Must contain at least 8 characters"
+            }
+            if containsDigit(value)
+            {
+                return "Password Must contain at least 1 digit"
+            }
+            if containsLowerCase(value)
+            {
+                return "Password Must contain at least 1 lowercase character"
+            }
+            if containsUpperCase(value)
+            {
+                return "Password Must contain at least 1 uppercase character"
+            }
+            return nil
+            
+            func containsDigit(_ value: String) -> Bool
+            {
+                let psdExpression = ".[1-9]+."
+                let psdpredicate = NSPredicate(format: "SELF MATCHES %@", psdExpression)
+                return !psdpredicate.evaluate(with: value)
+            }
+            func containsLowerCase(_ value: String) -> Bool
+            {
+                let psdExpression = ".[a-z]+."
+                let psdpredicate = NSPredicate(format: "SELF MATCHES %@", psdExpression)
+                return !psdpredicate.evaluate(with: value)
+            }
+            func containsUpperCase(_ value: String) -> Bool
+            {
+                let psdExpression = ".[A-Z]+."
+                let psdpredicate = NSPredicate(format: "SELF MATCHES %@", psdExpression)
+                return !psdpredicate.evaluate(with: value)
+            }
     
     
     
