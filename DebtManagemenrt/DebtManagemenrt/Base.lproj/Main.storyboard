@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -108,7 +108,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="+1" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qE0-Tx-tNb">
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="+1" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qE0-Tx-tNb" userLabel="CountryCodeTF">
                                                 <rect key="frame" x="96" y="0.0" width="44" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -183,11 +183,6 @@
                     </view>
                     <navigationItem key="navigationItem" id="0f0-JR-Ofo"/>
                     <connections>
-                        <outlet property="BigContainerSV" destination="xMt-AR-7fj" id="bnx-Iq-Foj"/>
-                        <outlet property="ConfirmSV" destination="OC5-OX-bFr" id="XmR-td-6tj"/>
-                        <outlet property="ConfirmUserNameLBL" destination="H3K-lf-F3O" id="9Md-fk-DE1"/>
-                        <outlet property="ConfirmUserNameTF" destination="jr0-0Z-ZBt" id="wJO-tB-3lm"/>
-                        <outlet property="CountrycodeTF" destination="qE0-Tx-tNb" id="LRq-aE-FAJ"/>
                         <outlet property="DebtTV" destination="mS8-nY-NoR" id="uRt-A5-oQ7"/>
                         <outlet property="EmailIDLBL" destination="vOo-XC-3VP" id="K3P-tk-zrL"/>
                         <outlet property="EmailIDTF" destination="G6h-hO-MWr" id="CTu-nV-isF"/>
@@ -208,6 +203,9 @@
                         <outlet property="UserNameLBL" destination="8AJ-IV-P68" id="Hs0-Xp-kPk"/>
                         <outlet property="UserNameTF" destination="beJ-HX-efm" id="biJ-kR-Kah"/>
                         <outlet property="UsernameSV" destination="vun-wi-5kd" id="DFg-me-bdb"/>
+                        <outlet property="confirmUserNameLBL" destination="H3K-lf-F3O" id="rCV-ar-Ydz"/>
+                        <outlet property="confirmUserNameTF" destination="jr0-0Z-ZBt" id="zSQ-X2-1Kw"/>
+                        <outlet property="countryCodeTF" destination="qE0-Tx-tNb" id="R5C-y5-Bdw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UNx-8E-FTd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -427,7 +425,6 @@
                         <outlet property="ActualDetailsTF" destination="mml-Wb-2yR" id="9e9-V5-yo3"/>
                         <outlet property="BankStatementSV" destination="zUW-eV-0AL" id="qvX-XG-Ok8"/>
                         <outlet property="BankStatementTF" destination="fIK-I9-9Ys" id="xqb-wB-leF"/>
-                        <outlet property="BigContainerSV" destination="d2G-hK-B1s" id="han-f8-ms0"/>
                         <outlet property="CreditScoreSV" destination="96G-MY-WmC" id="t21-ev-SH3"/>
                         <outlet property="CreditScoreTF" destination="4V2-ZW-meS" id="QPg-Rw-O4I"/>
                         <outlet property="EstimatedAmountSV" destination="nD5-78-TJA" id="4HJ-WI-l9P"/>
@@ -660,7 +657,9 @@
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BvV-ye-v8L">
                                                         <rect key="frame" x="180.66666666666663" y="0.0" width="172.33333333333337" height="166.66666666666666"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="filled" title="Calender"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Calender" cornerStyle="medium">
+                                                            <backgroundConfiguration key="background" image="calendar" catalog="system"/>
+                                                        </buttonConfiguration>
                                                         <connections>
                                                             <segue destination="pls-AR-Wqs" kind="show" identifier="ShowtoCalendar" id="oWI-IU-fO8"/>
                                                         </connections>
@@ -691,7 +690,6 @@
                     <connections>
                         <outlet property="AboutUsBTN" destination="mJS-fi-QMS" id="JeN-UM-kDe"/>
                         <outlet property="AdvicesBTN" destination="K0U-CZ-MYU" id="ndi-c5-fHJ"/>
-                        <outlet property="BigContainerSV" destination="5Mw-Xe-3iR" id="4qS-Cp-f4H"/>
                         <outlet property="ButtonsSV" destination="9pI-Ma-2n3" id="tBV-On-PfC"/>
                         <outlet property="CalenderBTN" destination="BvV-ye-v8L" id="iqf-Y5-JC4"/>
                         <outlet property="DebtButtonsSV" destination="SAc-7i-lai" id="QrU-af-jCs"/>
@@ -1152,7 +1150,6 @@
                     </view>
                     <navigationItem key="navigationItem" title="Debt Track" id="qBs-WU-zbh"/>
                     <connections>
-                        <outlet property="BigContainerSV" destination="3HE-MS-E8c" id="vhT-Xa-X5p"/>
                         <outlet property="CalcAmTF" destination="BSb-Sh-GIT" id="K87-e6-OZk"/>
                         <outlet property="CalcAmorintLBL" destination="VUo-dK-bHk" id="nZe-Iv-4kW"/>
                         <outlet property="CalcAmtSV" destination="kts-jW-TZM" id="L7d-0x-0Rc"/>
@@ -1571,11 +1568,12 @@
     <resources>
         <image name="DebtManagement" width="2013" height="2048"/>
         <image name="EmailID" width="128" height="128"/>
+        <image name="calendar" catalog="system" width="128" height="107"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemMintColor">
-            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

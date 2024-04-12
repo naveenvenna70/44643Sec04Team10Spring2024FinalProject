@@ -9,8 +9,7 @@ import UIKit
 
 class DebtTrackingVC: UIViewController {
     
-    
-    @IBOutlet weak var BigContainerSV: UIStackView!
+
     
     @IBOutlet weak var UserInterfaceSV: UIStackView!
     

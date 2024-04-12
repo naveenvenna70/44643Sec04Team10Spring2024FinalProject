@@ -9,9 +9,7 @@ import UIKit
 
 class DebtmanagementVC: UIViewController {
     
-    
-    @IBOutlet weak var BigContainerSV: UIStackView!
-    
+
     
     @IBOutlet weak var DebtManagementIV: UIImageView!
     

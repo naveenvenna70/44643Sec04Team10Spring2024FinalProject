@@ -9,12 +9,10 @@ import UIKit
 
 class LoanEstimationVC: UIViewController {
     
-    
-    @IBOutlet weak var BigContainerSV: UIStackView!
+
     
     
     @IBOutlet weak var TotalInformationSV: UIStackView!
-    
     @IBOutlet weak var TotalInformationTF: UITextField!
     
     

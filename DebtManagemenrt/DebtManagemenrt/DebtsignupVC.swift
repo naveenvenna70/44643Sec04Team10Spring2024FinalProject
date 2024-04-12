@@ -10,8 +10,7 @@ import UIKit
 class DebtsignupVC: UIViewController {
     
     
-    
-    @IBOutlet weak var BigContainerSV: UIStackView!
+
     
     
     @IBOutlet weak var DebtTV: UIImageView!
@@ -55,7 +54,7 @@ class DebtsignupVC: UIViewController {
     
     @IBOutlet weak var PhonenumberLBL: UILabel!
     
-    @IBOutlet weak var CountrycodeTF: UITextField!
+    @IBOutlet weak var countryCodeTF: UITextField!
     
     @IBOutlet weak var NumberTF: UITextField!
     
@@ -67,13 +66,10 @@ class DebtsignupVC: UIViewController {
     
     
     @IBOutlet weak var PasswordTF: UITextField!
+
+    @IBOutlet weak var confirmUserNameLBL: UILabel!
     
-    
-    @IBOutlet weak var ConfirmSV: UIStackView!
-    
-    @IBOutlet weak var ConfirmUserNameLBL: UILabel!
-    
-    @IBOutlet weak var ConfirmUserNameTF: UITextField!
+    @IBOutlet weak var confirmUserNameTF: UITextField!
     
     
     @IBOutlet weak var SignupBTN: UIButton!
