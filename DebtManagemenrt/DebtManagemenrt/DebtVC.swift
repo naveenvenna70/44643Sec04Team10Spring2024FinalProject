@@ -60,6 +60,14 @@ class DebtVC: UIViewController {
     }
     
     @IBAction func LoginBTN(_ sender: Any) {
+        guard let text1 = usernameTF.text, !text1.isEmpty,
+                      let text2 = PasswordTF.text, !text2.isEmpty else {
+                    let alertController = UIAlertController(title: "Message", message: "Please fill in all fields", preferredStyle: .alert)
+                    let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+                    alertController.addAction(okAction)
+                    present(alertController, animated: true, completion: nil)
+                    return performSegue(withIdentifier: "ShowToHome", sender: self)
+                }
         resetForm()
     }
     
