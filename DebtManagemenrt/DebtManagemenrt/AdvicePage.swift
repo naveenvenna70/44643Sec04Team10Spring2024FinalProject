@@ -26,6 +26,8 @@ class AdvicePage: UIViewController {
     
     
     
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
