@@ -155,4 +155,20 @@
 1.    > First Commit -  Created coco touch class called ReviewPageVC and connected its outlets for stack views, text fields, buttons etc.
 1.    > Second Commit - Outlets and actions have been created for the labels, stack views , buttons of the Advice Page.
 1.    > Third Commit -  Created the ninth UI screen called Calendar Page and given the constraints for its labels, stack views & buttons etc.
+      
+
+# **Sprint 6:**
+* Naveen Reddy Venna:
+1.    > First Commit -   Added the password functionality for the login screen.
+1.    > Second Commit -  Re-arranged the segue ways between the screens in the project.
+1.    > Third Commit -   Added the login functionality for the login screen.
+* Venkateswara Rao Gude:
+1.    > First Commit -   Modified the calendar Screen and its outlets.
+1.    > Second Commit -  Arranged the segue ways bewtween the screens.         
+1.    > Third Commit  -  Modified the outlets and actions of the screens in the project.
+* Navyasree Sriperumbudoor:
+1.    > First Commit -  Added the eureka package dependency to the project.
+1.    > Second Commit - Added the images to the buttons of the home screen.
+1.    > Third Commit -  Created outlets and actions for the calendarVC file.
+  
   
