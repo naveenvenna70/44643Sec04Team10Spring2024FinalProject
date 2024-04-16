@@ -25,13 +25,14 @@ class DebtSignUpVC: UIViewController {
     }
     
     @IBAction func Signup(_ sender: UIButton) {
+      
         if let email = EmailIdTF.text, let phonenumber = Number.text, let username = UserNameTF.text, let password = PasswordTF.text, let firstname = FirstNameTF.text, let lastname = LastNameTF.text, let confirmPassword = ConfirmPasswordTF.text{
                             if firstname == ""{
                                 openAlert(title: "Alert", message: "Please enter firstname", alertStyle: .alert, actionTitles: ["Okay"], actionStyles: [.default], actions: [{_ in }])
                             }else if lastname == ""{
                                 openAlert(title: "Alert", message: "Please enter lastname", alertStyle: .alert, actionTitles: ["Okay"], actionStyles: [.default], actions: [{_ in }])
                             } else if let emailError = inValidEmail(email) {
-                                openAlert(title: "Alert", message: emailError, alertStyle: .alert, actionTitles: ["Okay"], actionStyles: [.default], actions: [{_ in }])
+                                openAlert(title: "Alert", message: "emailError", alertStyle: .alert, actionTitles: ["Okay"], actionStyles: [.default], actions: [{_ in }])
                             } else if username == ""{
                                 openAlert(title: "Alert", message: "please enter valid username", alertStyle: .alert, actionTitles: ["Okay"], actionStyles: [.default], actions: [{_ in }])
                             }else if let phoneError = isValidPhoneNumber(phonenumber) {
@@ -45,8 +46,8 @@ class DebtSignUpVC: UIViewController {
                                     print("Please confirm password")
                                 }else{
                                     if password == confirmPassword{
-//                                        openAlert(title: "Alert", message: "Account created", alertStyle: .alert, actionTitles: ["Okay"], actionStyles: [.default], actions: [{_ in }])
-                                        performSegue(withIdentifier: "ShowtoLogin", sender: self)
+                                      openAlert(title: "Alert", message: "Account created", alertStyle: .alert, actionTitles: ["Okay"], actionStyles: [.default], actions: [{_ in }])
+                                        
                                         FirstNameTF.text = ""
                                         LastNameTF.text = ""
                                         EmailIdTF.text = ""
@@ -54,16 +55,20 @@ class DebtSignUpVC: UIViewController {
                                         PasswordTF.text = ""
                                         ConfirmPasswordTF.text = ""
                                         UserNameTF.text = ""
-                                    }else{
+                                    }
+                                    else{
                                         openAlert(title: "Alert", message: "password doesn't match", alertStyle: .alert, actionTitles: ["Okay"], actionStyles: [.default], actions: [{_ in }])
                                         print("password does not match")
                                     }
                                 }
                             }
+            
                         }else{
                             openAlert(title: "Alert", message: "please validate your details", alertStyle: .alert, actionTitles: ["Okay"], actionStyles: [.default], actions: [{_ in }])
                             print("Please check your details")
                         }
+        
+                 performSegue(withIdentifier: "ShowtoLogin", sender: self)
         
                     }
                     

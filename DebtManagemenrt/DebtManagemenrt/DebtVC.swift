@@ -25,18 +25,12 @@ class DebtVC: UIViewController {
             }
     
     @IBOutlet weak var DebtManagementTV: UIImageView!
-    
-    
-    @IBOutlet weak var UsernameSV: UIStackView!
-    
-    
-    @IBOutlet weak var usernameLBL: UILabel!
+
     
     
     @IBOutlet weak var usernameTF: UITextField!
     
-    
-    @IBOutlet weak var PasswordSV: UIStackView!
+
     
     
     @IBOutlet weak var PasswordLBL: UILabel!
