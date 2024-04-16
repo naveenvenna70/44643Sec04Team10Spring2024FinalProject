@@ -59,6 +59,9 @@ class DebtVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func registerBTN(_ sender: UIButton) {
+        performSegue(withIdentifier: "ShowtoSignup", sender: self)
+    }
     @IBAction func LoginBTN(_ sender: Any) {
         guard let text1 = usernameTF.text, !text1.isEmpty,
                       let text2 = PasswordTF.text, !text2.isEmpty else {
@@ -135,48 +138,46 @@ class DebtVC: UIViewController {
     }
         
         
-        
-    }
     func inValidPassword(_ value: String) -> String?
-        {
-            if value.count < 8
-            {
-                return "Password Must contain at least 8 characters"
-            }
-            if containsDigit(value)
-            {
-                return "Password Must contain at least 1 digit"
-            }
-            if containsLowerCase(value)
-            {
-                return "Password Must contain at least 1 lowercase character"
-            }
-            if containsUpperCase(value)
-            {
-                return "Password Must contain at least 1 uppercase character"
-            }
-            return nil
-            
-            func containsDigit(_ value: String) -> Bool
-            {
-                let psdExpression = ".[1-9]+."
-                let psdpredicate = NSPredicate(format: "SELF MATCHES %@", psdExpression)
-                return !psdpredicate.evaluate(with: value)
-            }
-            func containsLowerCase(_ value: String) -> Bool
-            {
-                let psdExpression = ".[a-z]+."
-                let psdpredicate = NSPredicate(format: "SELF MATCHES %@", psdExpression)
-                return !psdpredicate.evaluate(with: value)
-            }
-            func containsUpperCase(_ value: String) -> Bool
-            {
-                let psdExpression = ".[A-Z]+."
-                let psdpredicate = NSPredicate(format: "SELF MATCHES %@", psdExpression)
-                return !psdpredicate.evaluate(with: value)
-            }
+    {
+    if value.count < 8
+    {
+        return "Password Must contain at least 8 characters"
+    }
+    if containsDigit(value)
+    {
+        return "Password Must contain at least 1 digit"
+    }
+    if containsLowerCase(value)
+    {
+        return "Password Must contain at least 1 lowercase character"
+    }
+    if containsUpperCase(value)
+    {
+        return "Password Must contain at least 1 uppercase character"
+    }
+    return nil
     
+    func containsDigit(_ value: String) -> Bool
+    {
+        let psdExpression = ".[1-9]+."
+        let psdpredicate = NSPredicate(format: "SELF MATCHES %@", psdExpression)
+        return !psdpredicate.evaluate(with: value)
+    }
+    func containsLowerCase(_ value: String) -> Bool
+    {
+        let psdExpression = ".[a-z]+."
+        let psdpredicate = NSPredicate(format: "SELF MATCHES %@", psdExpression)
+        return !psdpredicate.evaluate(with: value)
+    }
+    func containsUpperCase(_ value: String) -> Bool
+    {
+        let psdExpression = ".[A-Z]+."
+        let psdpredicate = NSPredicate(format: "SELF MATCHES %@", psdExpression)
+        return !psdpredicate.evaluate(with: value)
+    }
     
+}
     
     
     
