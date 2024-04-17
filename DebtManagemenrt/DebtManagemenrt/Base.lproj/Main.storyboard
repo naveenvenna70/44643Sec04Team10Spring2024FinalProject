@@ -543,7 +543,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-260" y="94"/>
+            <point key="canvasLocation" x="-408" y="94"/>
         </scene>
         <!--DebtmanagementVC-->
         <scene sceneID="hTU-4Y-XL0">
@@ -621,9 +621,6 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="166.66666666666666"/>
                                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                         <state key="normal" title="Payment Schedule" image="payment schedule"/>
-                                                        <connections>
-                                                            <segue destination="LhD-bJ-2U6" kind="show" identifier="ShowtoPayment" id="vGi-8y-hQh"/>
-                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BvV-ye-v8L">
                                                         <rect key="frame" x="180.66666666666663" y="0.0" width="172.33333333333337" height="166.66666666666666"/>
@@ -800,16 +797,16 @@
                                         <rect key="frame" x="0.0" y="0.0" width="353" height="694"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleAspectFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Eas-Cm-5Rt" userLabel="ServiceNOSV">
-                                                <rect key="frame" x="0.0" y="0.0" width="353" height="34"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="353" height="54"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service No:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oci-qZ-92f">
-                                                        <rect key="frame" x="0.0" y="6.6666666666666554" width="138" height="20.333333333333329"/>
+                                                        <rect key="frame" x="0.0" y="16.666666666666657" width="138" height="20.333333333333329"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uLP-RK-kIw" userLabel="ServiceNoTF">
-                                                        <rect key="frame" x="146" y="2.666666666666659" width="207" height="28.666666666666671"/>
+                                                        <rect key="frame" x="146" y="12.666666666666659" width="207" height="28.666666666666671"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                         <connections>
@@ -822,16 +819,16 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="kce-x3-bsy" userLabel="LoandateSV">
-                                                <rect key="frame" x="0.0" y="42" width="353" height="34"/>
+                                                <rect key="frame" x="0.0" y="62" width="353" height="53.666666666666657"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loan Issued Date:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ulr-qi-bGy">
-                                                        <rect key="frame" x="0.0" y="2.666666666666659" width="138" height="28.666666666666671"/>
+                                                        <rect key="frame" x="0.0" y="12.333333333333345" width="138" height="28.666666666666671"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SKJ-1z-aNU" userLabel="LoanIssuedDateTF">
-                                                        <rect key="frame" x="146" y="2.666666666666659" width="207" height="28.666666666666671"/>
+                                                        <rect key="frame" x="146" y="12.333333333333345" width="207" height="28.666666666666671"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                         <connections>
@@ -845,16 +842,16 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="phc-lg-KtX" userLabel="LoanAmtSV">
-                                                <rect key="frame" x="0.0" y="84" width="353" height="34"/>
+                                                <rect key="frame" x="0.0" y="123.66666666666666" width="353" height="54"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loan Amount:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XgH-UI-AIh">
-                                                        <rect key="frame" x="0.0" y="2.666666666666659" width="138" height="28.666666666666671"/>
+                                                        <rect key="frame" x="0.0" y="12.666666666666659" width="138" height="28.666666666666671"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IMs-MR-NBg" userLabel="LoanAmountTF">
-                                                        <rect key="frame" x="146" y="2.666666666666659" width="207" height="28.666666666666671"/>
+                                                        <rect key="frame" x="146" y="12.666666666666659" width="207" height="28.666666666666671"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                         <connections>
@@ -868,16 +865,16 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="nYg-2B-MTR" userLabel="InterestRateSV">
-                                                <rect key="frame" x="0.0" y="126" width="353" height="34"/>
+                                                <rect key="frame" x="0.0" y="185.66666666666669" width="353" height="54"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Intrest Rate:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHb-zC-4LQ" userLabel="Interest Rate:">
-                                                        <rect key="frame" x="0.0" y="2.6666666666666874" width="138" height="28.666666666666671"/>
+                                                        <rect key="frame" x="0.0" y="12.666666666666631" width="138" height="28.666666666666671"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MfB-s8-Sej" userLabel="InterestRateTF">
-                                                        <rect key="frame" x="146" y="2.6666666666666874" width="207" height="28.666666666666671"/>
+                                                        <rect key="frame" x="146" y="12.666666666666631" width="207" height="28.666666666666671"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                         <connections>
@@ -891,16 +888,16 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="7DK-63-evS" userLabel="NoOfYearSV">
-                                                <rect key="frame" x="0.0" y="168" width="353" height="34"/>
+                                                <rect key="frame" x="0.0" y="247.66666666666666" width="353" height="53.666666666666657"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No.of years:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bf3-RE-KXu">
-                                                        <rect key="frame" x="0.0" y="2.6666666666666874" width="138" height="28.666666666666671"/>
+                                                        <rect key="frame" x="0.0" y="12.333333333333316" width="138" height="28.666666666666671"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UcZ-df-fmb" userLabel="NoOfYearsTF">
-                                                        <rect key="frame" x="146" y="2.6666666666666874" width="207" height="28.666666666666671"/>
+                                                        <rect key="frame" x="146" y="12.333333333333316" width="207" height="28.666666666666671"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                         <connections>
@@ -914,16 +911,16 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="QS2-8K-pj2" userLabel="noofInstallmentSV">
-                                                <rect key="frame" x="0.0" y="210" width="353" height="34"/>
+                                                <rect key="frame" x="0.0" y="309.33333333333331" width="353" height="54"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No.of Installments:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3k3-I7-qGF">
-                                                        <rect key="frame" x="0.0" y="2.6666666666666874" width="138" height="28.666666666666671"/>
+                                                        <rect key="frame" x="0.0" y="12.666666666666687" width="138" height="28.666666666666671"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JSn-bn-anm" userLabel="NoOfInstallmentTF">
-                                                        <rect key="frame" x="146" y="2.6666666666666874" width="207" height="28.666666666666671"/>
+                                                        <rect key="frame" x="146" y="12.666666666666687" width="207" height="28.666666666666671"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                         <connections>
@@ -936,40 +933,17 @@
                                                     <constraint firstItem="3k3-I7-qGF" firstAttribute="top" secondItem="JSn-bn-anm" secondAttribute="top" id="mbV-0y-1DP"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="kts-jW-TZM" userLabel="CalcAmtSV">
-                                                <rect key="frame" x="0.0" y="252" width="353" height="34"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calc Amount/Intrest" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VUo-dK-bHk">
-                                                        <rect key="frame" x="0.0" y="2.6666666666666874" width="150.66666666666666" height="28.666666666666671"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BSb-Sh-GIT" userLabel="CalcAmountTF">
-                                                        <rect key="frame" x="158.66666666666663" y="2.6666666666666874" width="194.33333333333337" height="28.666666666666671"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
-                                                        <connections>
-                                                            <action selector="CalcAmount:" destination="btW-oi-1oh" eventType="editingDidEnd" id="KVJ-KI-t1e"/>
-                                                        </connections>
-                                                    </textField>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstItem="BSb-Sh-GIT" firstAttribute="width" secondItem="VUo-dK-bHk" secondAttribute="width" multiplier="1.29" id="as1-bq-glU"/>
-                                                    <constraint firstItem="VUo-dK-bHk" firstAttribute="top" secondItem="BSb-Sh-GIT" secondAttribute="top" id="g5r-Gy-VVl"/>
-                                                </constraints>
-                                            </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dhQ-h7-Xlx" userLabel="TypeLoanSV">
-                                                <rect key="frame" x="0.0" y="294" width="353" height="34"/>
+                                                <rect key="frame" x="0.0" y="371.33333333333331" width="353" height="53.666666666666686"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type of Loan:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjW-r7-j4r">
-                                                        <rect key="frame" x="0.0" y="2.6666666666666874" width="138" height="28.666666666666671"/>
+                                                        <rect key="frame" x="0.0" y="12.666666666666687" width="138" height="28.666666666666671"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s1u-Iq-Imp" userLabel="TypeOfLoanTF">
-                                                        <rect key="frame" x="146" y="2.6666666666666874" width="207" height="28.666666666666671"/>
+                                                        <rect key="frame" x="146" y="12.666666666666687" width="207" height="28.666666666666671"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                         <connections>
@@ -982,77 +956,51 @@
                                                     <constraint firstItem="s1u-Iq-Imp" firstAttribute="width" secondItem="pjW-r7-j4r" secondAttribute="width" multiplier="1.5" id="zp6-Vt-74F"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="3Dr-qQ-pGW" userLabel="NoMonthSV">
-                                                <rect key="frame" x="0.0" y="336" width="353" height="33.666666666666686"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="qyh-vh-fIL" userLabel="PaymentDateSV">
+                                                <rect key="frame" x="0.0" y="433" width="353" height="28.666666666666686"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No.of months:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0i4-Yq-s3A">
-                                                        <rect key="frame" x="0.0" y="2.3333333333333162" width="138" height="28.666666666666671"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PaymentDate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l7d-F6-Hdm">
+                                                        <rect key="frame" x="0.0" y="0.0" width="138" height="28.666666666666668"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e96-Dh-oXt" userLabel="NoOfMonthsTF">
-                                                        <rect key="frame" x="146" y="2.3333333333333162" width="207" height="28.666666666666671"/>
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x5C-eS-uWN" userLabel="DueData">
+                                                        <rect key="frame" x="146" y="0.0" width="207" height="28.666666666666668"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                         <connections>
-                                                            <action selector="NoofMonths:" destination="btW-oi-1oh" eventType="editingDidEnd" id="m8r-rX-XDs"/>
+                                                            <action selector="TypeofLoan:" destination="btW-oi-1oh" eventType="editingDidEnd" id="Blt-31-dFE"/>
                                                         </connections>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstItem="e96-Dh-oXt" firstAttribute="width" secondItem="0i4-Yq-s3A" secondAttribute="width" multiplier="1.5" id="5fS-RP-kYC"/>
-                                                    <constraint firstItem="0i4-Yq-s3A" firstAttribute="top" secondItem="e96-Dh-oXt" secondAttribute="top" id="mRT-Bg-vGh"/>
+                                                    <constraint firstItem="l7d-F6-Hdm" firstAttribute="top" secondItem="x5C-eS-uWN" secondAttribute="top" id="LIn-kS-w4Q"/>
+                                                    <constraint firstItem="x5C-eS-uWN" firstAttribute="width" secondItem="l7d-F6-Hdm" secondAttribute="width" multiplier="1.5" id="mhJ-OC-0of"/>
                                                 </constraints>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="G8H-rm-MWf" userLabel="TypeInstallmentSV">
-                                                <rect key="frame" x="0.0" y="377.66666666666669" width="353" height="34"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type of Installments:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtc-Aw-En5">
-                                                        <rect key="frame" x="0.0" y="6.6666666666666874" width="153.33333333333334" height="20.666666666666671"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4lD-dk-7PX" userLabel="TypeOfInstallmentTF">
-                                                        <rect key="frame" x="161.33333333333337" y="2.6666666666666305" width="191.66666666666663" height="28.666666666666671"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
-                                                        <connections>
-                                                            <action selector="TypeofInstallment:" destination="btW-oi-1oh" eventType="editingDidEnd" id="40m-FB-i1i"/>
-                                                        </connections>
-                                                    </textField>
-                                                </subviews>
-                                                <constraints>
-                                                    <constraint firstItem="4lD-dk-7PX" firstAttribute="width" secondItem="wtc-Aw-En5" secondAttribute="width" multiplier="1.25" id="SzT-Dm-aBl"/>
-                                                    <constraint firstItem="wtc-Aw-En5" firstAttribute="top" secondItem="G8H-rm-MWf" secondAttribute="top" constant="6.6666666666666288" id="ndO-aC-MIg"/>
-                                                </constraints>
-                                            </stackView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jmn-it-IWk">
-                                                <rect key="frame" x="0.0" y="419.66666666666663" width="353" height="50"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBt-vQ-fXG">
+                                                <rect key="frame" x="0.0" y="469.66666666666663" width="353" height="69.666666666666629"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HL1-Pe-eZW">
-                                                <rect key="frame" x="0.0" y="477.66666666666669" width="353" height="69.666666666666686"/>
+                                                <rect key="frame" x="0.0" y="547.33333333333337" width="353" height="69.333333333333371"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Submit"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HGh-Nf-X0R">
-                                                <rect key="frame" x="0.0" y="555.33333333333337" width="353" height="138.66666666666663"/>
+                                                <rect key="frame" x="0.0" y="624.66666666666663" width="353" height="69.333333333333371"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="kts-jW-TZM" firstAttribute="height" secondItem="Eas-Cm-5Rt" secondAttribute="height" id="4dp-un-zlO"/>
                                             <constraint firstItem="phc-lg-KtX" firstAttribute="height" secondItem="Eas-Cm-5Rt" secondAttribute="height" id="AtE-I8-jpW"/>
                                             <constraint firstItem="7DK-63-evS" firstAttribute="height" secondItem="Eas-Cm-5Rt" secondAttribute="height" id="CCf-Gp-RJS"/>
-                                            <constraint firstItem="G8H-rm-MWf" firstAttribute="height" secondItem="Eas-Cm-5Rt" secondAttribute="height" id="Mjh-LO-1Aq"/>
                                             <constraint firstItem="kce-x3-bsy" firstAttribute="height" secondItem="Eas-Cm-5Rt" secondAttribute="height" id="OaQ-bZ-Cgi"/>
-                                            <constraint firstItem="3Dr-qQ-pGW" firstAttribute="height" secondItem="Eas-Cm-5Rt" secondAttribute="height" id="RLW-WR-aTQ"/>
                                             <constraint firstItem="QS2-8K-pj2" firstAttribute="height" secondItem="Eas-Cm-5Rt" secondAttribute="height" id="WLS-n1-pXQ"/>
                                             <constraint firstItem="nYg-2B-MTR" firstAttribute="height" secondItem="Eas-Cm-5Rt" secondAttribute="height" id="Zu4-b5-CtS"/>
                                             <constraint firstItem="dhQ-h7-Xlx" firstAttribute="height" secondItem="Eas-Cm-5Rt" secondAttribute="height" id="yvd-nw-rdN"/>
@@ -1061,7 +1009,8 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="HL1-Pe-eZW" firstAttribute="height" secondItem="3HE-MS-E8c" secondAttribute="height" multiplier="0.1" id="99Q-4X-q6S"/>
-                                    <constraint firstItem="HGh-Nf-X0R" firstAttribute="height" secondItem="3HE-MS-E8c" secondAttribute="height" multiplier="0.2" id="9Fj-yq-zes"/>
+                                    <constraint firstItem="HGh-Nf-X0R" firstAttribute="height" secondItem="3HE-MS-E8c" secondAttribute="height" multiplier="0.1" id="9Fj-yq-zes"/>
+                                    <constraint firstItem="oBt-vQ-fXG" firstAttribute="height" secondItem="3HE-MS-E8c" secondAttribute="height" multiplier="0.1" id="T7R-q9-z5d"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -1076,9 +1025,6 @@
                     </view>
                     <navigationItem key="navigationItem" title="Debt Track" id="qBs-WU-zbh"/>
                     <connections>
-                        <outlet property="CalcAmTF" destination="BSb-Sh-GIT" id="K87-e6-OZk"/>
-                        <outlet property="CalcAmorintLBL" destination="VUo-dK-bHk" id="nZe-Iv-4kW"/>
-                        <outlet property="CalcAmtSV" destination="kts-jW-TZM" id="L7d-0x-0Rc"/>
                         <outlet property="InterestRateLBL" destination="vHb-zC-4LQ" id="GPf-ly-4om"/>
                         <outlet property="InterestRateSV" destination="nYg-2B-MTR" id="NYK-LV-bhu"/>
                         <outlet property="InterestRateTF" destination="MfB-s8-Sej" id="AgM-qi-S3F"/>
@@ -1088,21 +1034,15 @@
                         <outlet property="LoanDateSV" destination="kce-x3-bsy" id="W9S-11-edK"/>
                         <outlet property="LoanIssuedDate" destination="Ulr-qi-bGy" id="Oze-Vr-1Is"/>
                         <outlet property="LoanIssuedDateTF" destination="SKJ-1z-aNU" id="QJJ-bU-jfU"/>
-                        <outlet property="NoMonthSV" destination="3Dr-qQ-pGW" id="Ofu-PI-3ag"/>
                         <outlet property="NoOfInstallmentTF" destination="JSn-bn-anm" id="ZXh-oB-uFr"/>
                         <outlet property="NoOfInstallmentsLBL" destination="3k3-I7-qGF" id="02P-xu-Tds"/>
                         <outlet property="NoOfYearsLBL" destination="bf3-RE-KXu" id="YzF-uS-dUl"/>
                         <outlet property="NoOfYearsSV" destination="7DK-63-evS" id="O4F-w0-X3J"/>
                         <outlet property="NoOfYearsTF" destination="UcZ-df-fmb" id="qvC-0a-k1n"/>
-                        <outlet property="NoofMonthsLBL" destination="0i4-Yq-s3A" id="LK5-5g-oPN"/>
-                        <outlet property="NoofMonthsTF" destination="e96-Dh-oXt" id="sGR-Oz-WmH"/>
                         <outlet property="ServiceNO" destination="Oci-qZ-92f" id="cnZ-8o-1Nv"/>
                         <outlet property="ServiceNOSV" destination="Eas-Cm-5Rt" id="EzH-FW-TUG"/>
                         <outlet property="ServiceNoTF" destination="uLP-RK-kIw" id="c1K-Zm-kfq"/>
-                        <outlet property="TypeInstallmentSV" destination="G8H-rm-MWf" id="iiI-ao-7fH"/>
                         <outlet property="TypeLoanSV" destination="dhQ-h7-Xlx" id="u1g-T6-0wF"/>
-                        <outlet property="TypeofInstallmentLBL" destination="wtc-Aw-En5" id="BI9-by-5bT"/>
-                        <outlet property="TypeofInstallmentTF" destination="4lD-dk-7PX" id="LRM-t2-Ohu"/>
                         <outlet property="TypeofLoanLBL" destination="pjW-r7-j4r" id="waY-bQ-ekl"/>
                         <outlet property="TypeofLoanTF" destination="s1u-Iq-Imp" id="qyV-4o-2Y3"/>
                         <outlet property="UserInterfaceSV" destination="zTX-Fv-GBL" id="5b9-1z-4AH"/>
@@ -1112,201 +1052,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mbs-Tz-uu4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2430" y="944"/>
-        </scene>
-        <!--Payment Schedule-->
-        <scene sceneID="dw4-oB-Uze">
-            <objects>
-                <viewController id="HiX-oU-u3K" customClass="PaymentScheduleVC" customModule="DebtManagemenrt" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="DDn-yh-JvR">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="q7v-or-PVp" userLabel="BigContainerSV">
-                                <rect key="frame" x="20" y="128" width="353" height="694"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="26R-aK-dZw" userLabel="LoanAmountSV">
-                                        <rect key="frame" x="0.0" y="0.0" width="353" height="62.333333333333336"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loan Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tmv-um-IKs">
-                                                <rect key="frame" x="0.0" y="21" width="101" height="20.333333333333329"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0NU-SF-Aev" userLabel="LoanAmountTF">
-                                                <rect key="frame" x="109" y="16.666666666666657" width="244" height="28.666666666666671"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="5rb-Fc-YSi" userLabel="PaymentSV">
-                                        <rect key="frame" x="0.0" y="70.333333333333343" width="353" height="62"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PaymentStartDate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JWv-d9-5KI">
-                                                <rect key="frame" x="0.0" y="20.666666666666657" width="138" height="20.333333333333329"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" borderStyle="bezel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="myx-64-mub" userLabel="PaymentStartDateTF">
-                                                <rect key="frame" x="146" y="16.666666666666657" width="207" height="28.666666666666671"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstItem="myx-64-mub" firstAttribute="width" secondItem="JWv-d9-5KI" secondAttribute="width" multiplier="1.5" id="vfU-I7-xgl"/>
-                                        </constraints>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="1Te-Tx-TUU" userLabel="EstLoanSV">
-                                        <rect key="frame" x="0.0" y="140.33333333333331" width="353" height="62.333333333333343"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EstimatedLoanDeadline" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YBR-Jn-FSg">
-                                                <rect key="frame" x="0.0" y="21" width="138" height="20.333333333333329"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" borderStyle="bezel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S9a-S0-xrW" userLabel="EstimatedLoanDeadlineTF">
-                                                <rect key="frame" x="146" y="17" width="207" height="28.666666666666671"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstItem="S9a-S0-xrW" firstAttribute="width" secondItem="YBR-Jn-FSg" secondAttribute="width" multiplier="1.5" id="JFN-uY-lLP"/>
-                                        </constraints>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="F3T-ZT-CbN" userLabel="EstmonthSV">
-                                        <rect key="frame" x="0.0" y="210.66666666666669" width="353" height="62"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EstimatedmonthlyDueDate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2c-yu-4BI">
-                                                <rect key="frame" x="0.0" y="21" width="138" height="20.333333333333329"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="fill" borderStyle="bezel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3VK-jK-w3G" userLabel="EstimatedmonthlyDueDateTF">
-                                                <rect key="frame" x="146" y="16.666666666666629" width="207" height="28.666666666666671"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstItem="3VK-jK-w3G" firstAttribute="width" secondItem="M2c-yu-4BI" secondAttribute="width" multiplier="1.5" id="iUZ-2f-QIC"/>
-                                        </constraints>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="pN9-4X-hMS" userLabel="IfnotpaidSV">
-                                        <rect key="frame" x="0.0" y="280.66666666666669" width="353" height="62.333333333333314"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IfNotPaidEstimatedAmountToBePiad" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X3D-fb-9pr">
-                                                <rect key="frame" x="0.0" y="21" width="138" height="20.333333333333329"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" borderStyle="bezel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bre-3z-mRJ" userLabel="IfNotPaidEstimatedAmountToBePiadTF">
-                                                <rect key="frame" x="146" y="17" width="207" height="28.666666666666671"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstItem="Bre-3z-mRJ" firstAttribute="width" secondItem="X3D-fb-9pr" secondAttribute="width" multiplier="1.5" id="avo-i8-6Ls"/>
-                                        </constraints>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="uVc-lj-2dq" userLabel="EstcreditSV">
-                                        <rect key="frame" x="0.0" y="351" width="353" height="62.333333333333314"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EstimatedCreditScore" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cEC-3X-uoV">
-                                                <rect key="frame" x="0.0" y="21" width="138" height="20.333333333333329"/>
-                                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="fill" borderStyle="bezel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="25p-Ov-gqy" userLabel="EstimatedCreditScoreTF">
-                                                <rect key="frame" x="146" y="16.666666666666686" width="207" height="28.666666666666671"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstItem="25p-Ov-gqy" firstAttribute="width" secondItem="cEC-3X-uoV" secondAttribute="width" multiplier="1.5" id="zu7-UO-tC7"/>
-                                        </constraints>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="JIa-tE-eoo" userLabel="CompTransacSV">
-                                        <rect key="frame" x="0.0" y="421.33333333333337" width="353" height="62"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CompleteTransactions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AGi-po-Jgc">
-                                                <rect key="frame" x="0.0" y="20.666666666666629" width="138" height="20.333333333333329"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" borderStyle="bezel" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rs2-55-TZ9" userLabel="CompleteTransactionsTF">
-                                                <rect key="frame" x="146" y="16.666666666666629" width="207" height="28.666666666666671"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                            </textField>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstItem="Rs2-55-TZ9" firstAttribute="width" secondItem="AGi-po-Jgc" secondAttribute="width" multiplier="1.5" id="7XM-nZ-RXR"/>
-                                        </constraints>
-                                    </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UIX-49-Elg">
-                                        <rect key="frame" x="0.0" y="491.33333333333331" width="353" height="62.333333333333314"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yvL-80-W3c">
-                                        <rect key="frame" x="0.0" y="561.66666666666663" width="353" height="62"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCD-l3-N7u">
-                                        <rect key="frame" x="0.0" y="631.66666666666663" width="353" height="62.333333333333371"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="yvL-80-W3c" firstAttribute="height" secondItem="q7v-or-PVp" secondAttribute="height" multiplier="0.1" id="467-RA-ScC"/>
-                                    <constraint firstItem="1Te-Tx-TUU" firstAttribute="height" secondItem="26R-aK-dZw" secondAttribute="height" id="4gW-UQ-oVh"/>
-                                    <constraint firstItem="5rb-Fc-YSi" firstAttribute="height" secondItem="26R-aK-dZw" secondAttribute="height" id="Iqr-pr-D2d"/>
-                                    <constraint firstItem="OCD-l3-N7u" firstAttribute="height" secondItem="q7v-or-PVp" secondAttribute="height" multiplier="0.2" id="TdI-hU-PsW"/>
-                                    <constraint firstItem="uVc-lj-2dq" firstAttribute="height" secondItem="26R-aK-dZw" secondAttribute="height" id="YIP-Ij-SHz"/>
-                                    <constraint firstItem="pN9-4X-hMS" firstAttribute="height" secondItem="26R-aK-dZw" secondAttribute="height" id="hds-aS-mfU"/>
-                                    <constraint firstItem="F3T-ZT-CbN" firstAttribute="height" secondItem="26R-aK-dZw" secondAttribute="height" id="lXH-oN-Bfw"/>
-                                    <constraint firstItem="JIa-tE-eoo" firstAttribute="height" secondItem="26R-aK-dZw" secondAttribute="height" id="sjz-Gb-Rqh"/>
-                                </constraints>
-                            </stackView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="16J-kf-OCS"/>
-                        <color key="backgroundColor" red="0.83137254901960778" green="0.90196078431372551" blue="0.87450980392156863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="q7v-or-PVp" secondAttribute="trailing" constant="20" id="I2h-yz-zke"/>
-                            <constraint firstItem="16J-kf-OCS" firstAttribute="bottom" secondItem="q7v-or-PVp" secondAttribute="bottom" constant="20" id="TmC-Gq-VlL"/>
-                            <constraint firstItem="q7v-or-PVp" firstAttribute="top" secondItem="16J-kf-OCS" secondAttribute="top" constant="20" id="vSv-5Y-hA3"/>
-                            <constraint firstItem="q7v-or-PVp" firstAttribute="leading" secondItem="16J-kf-OCS" secondAttribute="leading" constant="20" id="wQt-9J-7wR"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="Payment Schedule" id="beZ-aN-07z"/>
-                    <connections>
-                        <outlet property="CompleteTransactionsTF" destination="Rs2-55-TZ9" id="wl4-xZ-z3a"/>
-                        <outlet property="EstimatedCreditScoreTF" destination="25p-Ov-gqy" id="AUm-Qu-b83"/>
-                        <outlet property="EstimatedLoanDeadlineTF" destination="S9a-S0-xrW" id="7b0-5c-MzI"/>
-                        <outlet property="EstimatedmonthlyDueDateTF" destination="3VK-jK-w3G" id="8mc-hw-kVl"/>
-                        <outlet property="IfNotPaidEstimatedAmountToBePiadTF" destination="Bre-3z-mRJ" id="1Tw-Qd-a8A"/>
-                        <outlet property="LoanAmountTF" destination="0NU-SF-Aev" id="8Hc-X0-Zuz"/>
-                        <outlet property="paymentStartDateTF" destination="myx-64-mub" id="tA5-CT-Pqa"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Dla-bn-9cR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4555" y="944"/>
         </scene>
         <!--Advice Page-->
         <scene sceneID="HCN-Em-fRs">
@@ -1397,14 +1142,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="a98-2q-Ker" userLabel="BigContainerSV">
-                                <rect key="frame" x="30" y="138" width="333" height="674"/>
+                                <rect key="frame" x="20" y="20" width="353" height="802"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KSL-d7-fty" userLabel="CalendarLV" customClass="FSCalendar">
-                                        <rect key="frame" x="0.0" y="0.0" width="333" height="523.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="641.66666666666663"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="kiY-VP-8Gk" userLabel="SegmentCtrl">
-                                        <rect key="frame" x="0.0" y="531.33333333333337" width="333" height="68.333333333333371"/>
+                                        <rect key="frame" x="0.0" y="649.66666666666663" width="353" height="65"/>
                                         <segments>
                                             <segment title="Week"/>
                                             <segment title="Month"/>
@@ -1412,10 +1157,10 @@
                                         <color key="selectedSegmentTintColor" systemColor="systemYellowColor"/>
                                     </segmentedControl>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="uzi-pm-TLc" userLabel="ActionSV">
-                                        <rect key="frame" x="0.0" y="606.66666666666663" width="333" height="67.333333333333371"/>
+                                        <rect key="frame" x="0.0" y="721.66666666666663" width="353" height="80.333333333333371"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rvf-v6-cLC" userLabel="PrevBTN">
-                                                <rect key="frame" x="0.0" y="0.0" width="162.66666666666666" height="67.333333333333329"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="80.333333333333329"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Prev Month" cornerStyle="capsule">
@@ -1425,7 +1170,7 @@
                                                 </buttonConfiguration>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yqt-1K-QjK" userLabel="NextBTN">
-                                                <rect key="frame" x="170.66666666666663" y="0.0" width="162.33333333333337" height="67.333333333333329"/>
+                                                <rect key="frame" x="180.66666666666663" y="0.0" width="172.33333333333337" height="80.333333333333329"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Next Month" cornerStyle="capsule">
@@ -1438,7 +1183,6 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="uzi-pm-TLc" firstAttribute="width" secondItem="a98-2q-Ker" secondAttribute="width" multiplier="0.5" id="5hY-jC-HBU"/>
                                     <constraint firstItem="KSL-d7-fty" firstAttribute="height" secondItem="a98-2q-Ker" secondAttribute="height" priority="750" id="Fqe-mU-tkX"/>
                                     <constraint firstItem="kiY-VP-8Gk" firstAttribute="width" secondItem="a98-2q-Ker" secondAttribute="width" multiplier="0.3" priority="750" id="emk-B2-fHA"/>
                                     <constraint firstItem="KSL-d7-fty" firstAttribute="width" secondItem="a98-2q-Ker" secondAttribute="width" multiplier="0.2" priority="750" id="eoh-Vk-o0M"/>
@@ -1450,10 +1194,10 @@
                         <viewLayoutGuide key="safeArea" id="OUs-HD-LWU"/>
                         <color key="backgroundColor" red="0.83137254901960778" green="0.90196078431372551" blue="0.87450980392156863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="a98-2q-Ker" firstAttribute="top" secondItem="OUs-HD-LWU" secondAttribute="top" constant="30" id="5ye-Vw-2Rz"/>
-                            <constraint firstAttribute="trailing" secondItem="a98-2q-Ker" secondAttribute="trailing" constant="30" id="8os-Cn-ifI"/>
-                            <constraint firstItem="a98-2q-Ker" firstAttribute="leading" secondItem="OUs-HD-LWU" secondAttribute="leading" constant="30" id="qcb-cU-Oo5"/>
-                            <constraint firstItem="OUs-HD-LWU" firstAttribute="bottom" secondItem="a98-2q-Ker" secondAttribute="bottom" constant="30" id="yPX-OK-jtH"/>
+                            <constraint firstItem="OUs-HD-LWU" firstAttribute="trailing" secondItem="a98-2q-Ker" secondAttribute="trailing" constant="20" id="LDm-FU-SEr"/>
+                            <constraint firstItem="a98-2q-Ker" firstAttribute="leading" secondItem="OUs-HD-LWU" secondAttribute="leading" constant="20" id="O5c-Al-dFS"/>
+                            <constraint firstItem="OUs-HD-LWU" firstAttribute="bottom" secondItem="a98-2q-Ker" secondAttribute="bottom" constant="20" id="eNA-uJ-PYv"/>
+                            <constraint firstItem="a98-2q-Ker" firstAttribute="top" secondItem="vCR-bV-7d7" secondAttribute="top" constant="20" id="fJl-Dm-Icx"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Calendar" leftItemsSupplementBackButton="YES" id="VjO-tn-e4K"/>
@@ -1483,25 +1227,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ip5-QE-Z6k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1808" y="94"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="UtP-UY-7Lg">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LhD-bJ-2U6" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="YWS-dS-SgC"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="K9g-7D-Mrv">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="108"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="HiX-oU-u3K" kind="relationship" relationship="rootViewController" id="oJy-Lj-azJ"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4uK-Eh-fkP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3419" y="944"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="c7g-Yc-HbK">

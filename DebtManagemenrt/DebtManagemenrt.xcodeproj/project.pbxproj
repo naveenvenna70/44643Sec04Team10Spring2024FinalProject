@@ -18,6 +18,9 @@
 		82A1BF342BC84CFD00F797E1 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A1BF332BC84CFD00F797E1 /* CalendarVC.swift */; };
 		82ADCAC02B9B9A19003B7420 /* PaymentScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ADCABF2B9B9A19003B7420 /* PaymentScheduleVC.swift */; };
 		82FCE6102BB68F9400CB3A2E /* AdvicePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FCE60F2BB68F9400CB3A2E /* AdvicePage.swift */; };
+		F5314C6E2BCF34BD000BA55A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5314C6D2BCF34BD000BA55A /* GoogleService-Info.plist */; };
+		F5314C712BCF35A6000BA55A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F5314C702BCF35A6000BA55A /* FirebaseAuth */; };
+		F5314C732BCF35A6000BA55A /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F5314C722BCF35A6000BA55A /* FirebaseDatabase */; };
 		F551E5A02B82F7D9003224E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551E59F2B82F7D9003224E2 /* AppDelegate.swift */; };
 		F551E5A22B82F7D9003224E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551E5A12B82F7D9003224E2 /* SceneDelegate.swift */; };
 		F551E5A42B82F7D9003224E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551E5A32B82F7D9003224E2 /* ViewController.swift */; };
@@ -56,6 +59,7 @@
 		82A1BF332BC84CFD00F797E1 /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
 		82ADCABF2B9B9A19003B7420 /* PaymentScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentScheduleVC.swift; sourceTree = "<group>"; };
 		82FCE60F2BB68F9400CB3A2E /* AdvicePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvicePage.swift; sourceTree = "<group>"; };
+		F5314C6D2BCF34BD000BA55A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F551E59C2B82F7D9003224E2 /* DebtManagemenrt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebtManagemenrt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F551E59F2B82F7D9003224E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F551E5A12B82F7D9003224E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,9 +81,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5314C732BCF35A6000BA55A /* FirebaseDatabase in Frameworks */,
 				82383B4A2B858550009F7D3E /* Lottie in Frameworks */,
 				4A153C712BB777FA002BDA5A /* FSCalendar in Frameworks */,
 				4AAF5E032BC90EF300DE0C49 /* Eureka in Frameworks */,
+				F5314C712BCF35A6000BA55A /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,10 +131,10 @@
 			children = (
 				F551E59F2B82F7D9003224E2 /* AppDelegate.swift */,
 				F5A232DA2BCE4F8700025F15 /* DebtSignUpVC.swift */,
+				82383B462B85841E009F7D3E /* DebtVC.swift */,
 				F551E5A12B82F7D9003224E2 /* SceneDelegate.swift */,
 				F551E5A32B82F7D9003224E2 /* ViewController.swift */,
 				82ADCABF2B9B9A19003B7420 /* PaymentScheduleVC.swift */,
-				82383B462B85841E009F7D3E /* DebtVC.swift */,
 				F551E5A52B82F7DA003224E2 /* Main.storyboard */,
 				82A1BF332BC84CFD00F797E1 /* CalendarVC.swift */,
 				82FCE60F2BB68F9400CB3A2E /* AdvicePage.swift */,
@@ -139,6 +145,7 @@
 				F551E5A82B82F7DC003224E2 /* Assets.xcassets */,
 				F551E5AA2B82F7DC003224E2 /* LaunchScreen.storyboard */,
 				F551E5AD2B82F7DC003224E2 /* Info.plist */,
+				F5314C6D2BCF34BD000BA55A /* GoogleService-Info.plist */,
 			);
 			path = DebtManagemenrt;
 			sourceTree = "<group>";
@@ -180,6 +187,8 @@
 				82383B492B858550009F7D3E /* Lottie */,
 				4A153C702BB777FA002BDA5A /* FSCalendar */,
 				4AAF5E022BC90EF300DE0C49 /* Eureka */,
+				F5314C702BCF35A6000BA55A /* FirebaseAuth */,
+				F5314C722BCF35A6000BA55A /* FirebaseDatabase */,
 			);
 			productName = DebtManagemenrt;
 			productReference = F551E59C2B82F7D9003224E2 /* DebtManagemenrt.app */;
@@ -257,6 +266,7 @@
 				82383B482B858550009F7D3E /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				4A153C6F2BB777FA002BDA5A /* XCRemoteSwiftPackageReference "FSCalendar" */,
 				4AAF5E012BC90EF300DE0C49 /* XCRemoteSwiftPackageReference "Eureka" */,
+				F5314C6F2BCF35A6000BA55A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = F551E59D2B82F7D9003224E2 /* Products */;
 			projectDirPath = "";
@@ -276,6 +286,7 @@
 			files = (
 				F551E5AC2B82F7DC003224E2 /* LaunchScreen.storyboard in Resources */,
 				F551E5A92B82F7DC003224E2 /* Assets.xcassets in Resources */,
+				F5314C6E2BCF34BD000BA55A /* GoogleService-Info.plist in Resources */,
 				F551E5A72B82F7DA003224E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -679,6 +690,14 @@
 				minimumVersion = 4.4.0;
 			};
 		};
+		F5314C6F2BCF35A6000BA55A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -696,6 +715,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 82383B482B858550009F7D3E /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
+		};
+		F5314C702BCF35A6000BA55A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5314C6F2BCF35A6000BA55A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F5314C722BCF35A6000BA55A /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5314C6F2BCF35A6000BA55A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

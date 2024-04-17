@@ -7,6 +7,7 @@
 
 import UIKit
 import Lottie
+import Firebase
 
 class DebtVC: UIViewController {
    
@@ -24,16 +25,11 @@ class DebtVC: UIViewController {
                 }
             }
     
-    @IBOutlet weak var DebtManagementTV: UIImageView!
 
     
     
     @IBOutlet weak var usernameTF: UITextField!
     
-
-    
-    
-    @IBOutlet weak var PasswordLBL: UILabel!
     
     
     @IBOutlet weak var PasswordTF: UITextField!
