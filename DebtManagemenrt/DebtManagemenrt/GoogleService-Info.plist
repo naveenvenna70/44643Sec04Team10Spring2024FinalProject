@@ -3,28 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyAfaj1nEtGrjg5DZaPIF01EdAqTbHsGtd8</string>
+	<string>AIzaSyDH2RX__hC2UFluWYgqS6pNaUFCcZHXSDA</string>
 	<key>GCM_SENDER_ID</key>
-	<string>586687898555</string>
+	<string>819968893566</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>edu.nwmissouri.spring24.cs44643.sec04.DebtManagemenrt</string>
 	<key>PROJECT_ID</key>
-	<string>debtmanagemenrt</string>
+	<string>debtmanagement-656bf</string>
 	<key>STORAGE_BUCKET</key>
-	<string>debtmanagemenrt.appspot.com</string>
+	<string>debtmanagement-656bf.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_ANALYTICS_ENABLED</key>
-	<false></false>
+	<false/>
 	<key>IS_APPINVITE_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_GCM_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>IS_SIGNIN_ENABLED</key>
-	<true></true>
+	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:586687898555:ios:6874b2f2d2ee76e9245a9e</string>
+	<string>1:819968893566:ios:af487f8097b3735b71ee2f</string>
 </dict>
 </plist>
