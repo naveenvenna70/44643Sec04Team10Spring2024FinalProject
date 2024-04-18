@@ -8,24 +8,27 @@
 import UIKit
 import Lottie
 import Firebase
+import FirebaseAuth
+
 
 class DebtVC: UIViewController {
-   
     
-
+    
+    
     @IBOutlet weak var LaunchLAV: LottieAnimationView!{
         didSet{
             LaunchLAV.animation = .named("Animation")
             LaunchLAV.alpha=1
             LaunchLAV.play(){[weak self] _ in
-                        UIViewPropertyAnimator.runningPropertyAnimator(withDuration: 1, delay: 0.1, options: [.curveEaseIn]){
-                            self!.LaunchLAV.alpha = 0
-                        }
-                    }
+                UIViewPropertyAnimator.runningPropertyAnimator(withDuration: 1, delay: 0.1, options: [.curveEaseIn]){
+                    self!.LaunchLAV.alpha = 0
                 }
             }
+        }
+    }
     
-
+    
+    
     
     
     @IBOutlet weak var usernameTF: UITextField!
@@ -45,7 +48,7 @@ class DebtVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
@@ -53,121 +56,39 @@ class DebtVC: UIViewController {
         performSegue(withIdentifier: "ShowtoSignup", sender: self)
     }
     @IBAction func LoginBTN(_ sender: Any) {
-        guard let text1 = usernameTF.text, !text1.isEmpty,
-                      let text2 = PasswordTF.text, !text2.isEmpty else {
-                    let alertController = UIAlertController(title: "Message", message: "Please fill in all fields", preferredStyle: .alert)
-                    let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-                    alertController.addAction(okAction)
-                    present(alertController, animated: true, completion: nil)
-                    return performSegue(withIdentifier: "ShowToHome", sender: self)
-                }
-        resetForm()
+        guard let email = usernameTF.text, !email.isEmpty else {
+            self.MessageLBL.text = "Email address not found"
+            return
+        }
+        
+        guard let password = PasswordTF.text, !password.isEmpty else {
+            self.MessageLBL.text = "Please enter valid password"
+            return
+        }
+        
+        Auth.auth().signIn(withEmail: email, password: password) { [weak self] authResult, error in
+            guard let self = self else { return }
+            if error != nil {
+                self.MessageLBL.text = "Invalid Login Credentials! Please try again."
+            } else {
+                self.performSegue(withIdentifier: "ShowtoHome", sender: sender)
+            }
+            
+        }
+        
     }
-    
     
     @IBAction func Username(_ sender: Any) {
-        if let Username = usernameTF.text{
-                    if let message = inValidEmail(Username){
-                        MessageLBL.text = message
-                        MessageLBL.isHidden = false
-                    }
-                    else
-                    
-                    {
-                        MessageLBL.isHidden = true
-                    }
-                }
-                checkvalid()
+        guard let username = self.usernameTF.text, !username.isEmpty else{return}
+        self.PasswordTF.isEnabled = true
     }
-    func checkvalid()
-        {
-            if MessageLBL.isHidden == true
-            {
-                LOGINBTN.isEnabled = true
-            }else{
-                LOGINBTN.isEnabled = false
-            }
-        }
-    func inValidEmail(_ value: String) -> String?
-        {
-            let emailRegularExp =  "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
-            let predicate = NSPredicate(format: "SELF MATCHES %@", emailRegularExp)
-            if !predicate.evaluate(with: value )
-            {
-                return "Invalid Email Address "
-            }
-            return nil
-        }
-    func resetForm()
-        {
-            LOGINBTN.isEnabled = false
-            MessageLBL.isHidden = false
-            MessageLBL.text = "Required to fill the fields"
-            
-            usernameTF.text = ""
-            PasswordTF.text = ""
-            
-            
-        }
     
     
     @IBAction func PasswordTF(_ sender: Any) {
-        if let password = PasswordTF.text{
-            if let message = inValidPassword(password){
-                MessageLBL.text = message
-                MessageLBL.isHidden = false
-            }
-            else
-            
-            {
-                MessageLBL.isHidden = true
-            }
-        }
-        checkvalid()
-        
-    }
-        
-        
-    func inValidPassword(_ value: String) -> String?
-    {
-    if value.count < 8
-    {
-        return "Password Must contain at least 8 characters"
-    }
-    if containsDigit(value)
-    {
-        return "Password Must contain at least 1 digit"
-    }
-    if containsLowerCase(value)
-    {
-        return "Password Must contain at least 1 lowercase character"
-    }
-    if containsUpperCase(value)
-    {
-        return "Password Must contain at least 1 uppercase character"
-    }
-    return nil
-    
-    func containsDigit(_ value: String) -> Bool
-    {
-        let psdExpression = ".[1-9]+."
-        let psdpredicate = NSPredicate(format: "SELF MATCHES %@", psdExpression)
-        return !psdpredicate.evaluate(with: value)
-    }
-    func containsLowerCase(_ value: String) -> Bool
-    {
-        let psdExpression = ".[a-z]+."
-        let psdpredicate = NSPredicate(format: "SELF MATCHES %@", psdExpression)
-        return !psdpredicate.evaluate(with: value)
-    }
-    func containsUpperCase(_ value: String) -> Bool
-    {
-        let psdExpression = ".[A-Z]+."
-        let psdpredicate = NSPredicate(format: "SELF MATCHES %@", psdExpression)
-        return !psdpredicate.evaluate(with: value)
+        guard let password = self.PasswordTF.text, !password.isEmpty else{return}
+        self.PasswordTF.isEnabled = true
     }
     
-}
     
     
     
@@ -187,15 +108,14 @@ class DebtVC: UIViewController {
     
     
     
-
     /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destination.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }

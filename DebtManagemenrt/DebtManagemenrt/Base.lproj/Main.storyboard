@@ -419,14 +419,14 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DebtManagement" translatesAutoresizingMaskIntoConstraints="NO" id="XEe-td-eHg">
                                         <rect key="frame" x="0.0" y="0.0" width="353" height="240.66666666666666"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Weh-re-o2g" userLabel="MessageLBL">
-                                        <rect key="frame" x="0.0" y="248.66666666666669" width="353" height="50"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Weh-re-o2g" userLabel="MessageLBL">
+                                        <rect key="frame" x="0.0" y="248.66666666666669" width="353" height="80"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" systemColor="systemRedColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="pTg-wi-4Qg" userLabel="UsernameSV">
-                                        <rect key="frame" x="0.0" y="306.66666666666669" width="353" height="68"/>
+                                        <rect key="frame" x="0.0" y="336.66666666666669" width="353" height="80.333333333333314"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pII-C7-Lz6">
                                                 <rect key="frame" x="0.0" y="0.0" width="353" height="20.333333333333332"/>
@@ -435,11 +435,11 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dRL-cV-h7P" userLabel="usernameTF">
-                                                <rect key="frame" x="0.0" y="28.333333333333311" width="353" height="39.666666666666657"/>
+                                                <rect key="frame" x="0.0" y="28.333333333333314" width="353" height="52"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                                 <connections>
-                                                    <action selector="Username:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="gQB-F0-Qbs"/>
+                                                    <action selector="Username:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="HSz-cg-CAp"/>
                                                 </connections>
                                             </textField>
                                         </subviews>
@@ -448,7 +448,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="har-hf-vgk" userLabel="PasswordSV">
-                                        <rect key="frame" x="0.0" y="382.66666666666669" width="353" height="80.333333333333314"/>
+                                        <rect key="frame" x="0.0" y="425" width="353" height="80.333333333333314"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="83o-mx-BCT" userLabel="Password">
                                                 <rect key="frame" x="0.0" y="0.0" width="353" height="20.333333333333332"/>
@@ -461,7 +461,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                                 <connections>
-                                                    <action selector="PasswordTF:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Jsi-C4-Qsz"/>
+                                                    <action selector="PasswordTF:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="FgG-hq-cuF"/>
                                                 </connections>
                                             </textField>
                                         </subviews>
@@ -470,22 +470,21 @@
                                         </constraints>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lWf-Uu-tcE">
-                                        <rect key="frame" x="0.0" y="471" width="353" height="80.333333333333371"/>
+                                        <rect key="frame" x="0.0" y="513.33333333333337" width="353" height="80"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lez-bO-opw">
-                                        <rect key="frame" x="0.0" y="559.33333333333337" width="353" height="32"/>
+                                        <rect key="frame" x="0.0" y="601.33333333333337" width="353" height="34.333333333333371"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="LOGIN"/>
                                         <connections>
                                             <action selector="LoginBTN:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WQp-do-V6c"/>
-                                            <segue destination="SVd-bd-4Jk" kind="show" identifier="ShowToHome" id="1aF-Mf-Ldg"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcq-wZ-Jcq" userLabel="Register">
-                                        <rect key="frame" x="0.0" y="599.33333333333337" width="353" height="34.333333333333371"/>
+                                        <rect key="frame" x="0.0" y="643.66666666666663" width="353" height="70"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Register"/>
                                         <connections>
@@ -493,17 +492,18 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LWa-92-O0Y">
-                                        <rect key="frame" x="0.0" y="641.66666666666663" width="353" height="160.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="721.66666666666663" width="353" height="80.333333333333371"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="LWa-92-O0Y" firstAttribute="height" secondItem="zr7-s2-BzV" secondAttribute="height" multiplier="0.2" id="3cI-iY-El8"/>
+                                    <constraint firstItem="LWa-92-O0Y" firstAttribute="height" secondItem="zr7-s2-BzV" secondAttribute="height" multiplier="0.1" id="3cI-iY-El8"/>
                                     <constraint firstItem="lWf-Uu-tcE" firstAttribute="height" secondItem="zr7-s2-BzV" secondAttribute="height" multiplier="0.1" id="5VB-t0-HAW"/>
                                     <constraint firstItem="har-hf-vgk" firstAttribute="height" secondItem="zr7-s2-BzV" secondAttribute="height" multiplier="0.1" priority="750" id="5lU-RN-841"/>
                                     <constraint firstItem="XEe-td-eHg" firstAttribute="height" secondItem="zr7-s2-BzV" secondAttribute="height" multiplier="0.3" id="6QI-eM-rAf"/>
+                                    <constraint firstItem="Weh-re-o2g" firstAttribute="height" secondItem="zr7-s2-BzV" secondAttribute="height" multiplier="0.1" id="BOr-8n-bjZ"/>
                                     <constraint firstItem="pTg-wi-4Qg" firstAttribute="width" secondItem="zr7-s2-BzV" secondAttribute="width" multiplier="3" priority="750" id="H5T-Zy-ksu"/>
                                     <constraint firstItem="pcq-wZ-Jcq" firstAttribute="width" secondItem="zr7-s2-BzV" secondAttribute="width" multiplier="3" priority="750" id="SQK-C3-IiJ"/>
                                     <constraint firstItem="har-hf-vgk" firstAttribute="width" secondItem="zr7-s2-BzV" secondAttribute="width" multiplier="3" priority="750" id="kmG-TL-4fl"/>
@@ -539,6 +539,7 @@
                         <outlet property="RegisterBTN" destination="pcq-wZ-Jcq" id="tb2-ID-ru5"/>
                         <outlet property="usernameTF" destination="dRL-cV-h7P" id="AHk-xN-4kt"/>
                         <segue destination="1yX-fm-lHQ" kind="show" identifier="ShowtoSignup" id="Bdv-xD-VU9"/>
+                        <segue destination="SVd-bd-4Jk" kind="show" identifier="ShowtoHome" id="ffa-S9-yls"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -1278,6 +1279,9 @@
         </systemColor>
         <systemColor name="systemMintColor">
             <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
