@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9H8-vo-pac">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -14,7 +14,7 @@
             <objects>
                 <viewController id="1yX-fm-lHQ" customClass="DebtSignUpVC" customModule="DebtManagemenrt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gnc-dh-Kwz">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="xMt-AR-7fj" userLabel="BigContainerSV">
@@ -159,7 +159,7 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Signup"/>
                                         <connections>
                                             <action selector="Signup:" destination="1yX-fm-lHQ" eventType="touchUpInside" id="nv4-I8-kef"/>
-                                            <segue destination="BYZ-38-t0r" kind="show" identifier="ShowtoLogin" id="LPH-aR-5Gv"/>
+                                            <segue destination="9H8-vo-pac" kind="show" identifier="ShowtoLogin" id="LPH-aR-5Gv"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -198,7 +198,7 @@
             <objects>
                 <viewController id="2Az-Qp-IGo" customClass="LoanEstimationVC" customModule="DebtManagemenrt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NxH-8I-pta">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="d2G-hK-B1s" userLabel="BigContainerSV">
@@ -403,14 +403,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QdQ-bn-oAI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2816" y="94"/>
+            <point key="canvasLocation" x="3738.1679389312976" y="93.661971830985919"/>
         </scene>
         <!--DebtVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="DebtVC" customModule="DebtManagemenrt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="zr7-s2-BzV" userLabel="BigContainerSV">
@@ -544,7 +544,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-408" y="94"/>
+            <point key="canvasLocation" x="515.26717557251902" y="93.661971830985919"/>
         </scene>
         <!--DebtmanagementVC-->
         <scene sceneID="hTU-4Y-XL0">
@@ -672,14 +672,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u32-an-nS7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="700" y="94"/>
+            <point key="canvasLocation" x="1623.6641221374045" y="93.661971830985919"/>
         </scene>
         <!--ReviewpageVC-->
         <scene sceneID="wuL-y4-yA4">
             <objects>
                 <viewController id="VNL-wj-IJz" customClass="ReviewpageVC" customModule="DebtManagemenrt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xFb-zV-Oax">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="okM-RS-3bt" userLabel="BigContainerSV">
@@ -788,7 +788,7 @@
             <objects>
                 <viewController id="btW-oi-1oh" customClass="DebtTrackingVC" customModule="DebtManagemenrt" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZfC-0w-Ml7">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="3HE-MS-E8c" userLabel="BigContainerSV">
@@ -1059,7 +1059,7 @@
             <objects>
                 <viewController id="Hua-ce-A0k" customClass="AdvicePage" customModule="DebtManagemenrt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0LG-5v-mji">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="zU5-EM-Vtz" userLabel="BigContainerSV">
@@ -1139,7 +1139,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="yqA-pe-KXU" customClass="CalendarVC" customModule="DebtManagemenrt" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vCR-bV-7d7">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="a98-2q-Ker" userLabel="BigContainerSV">
@@ -1217,7 +1217,6 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="v6L-q8-GJp"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="1iL-lH-Ao6">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="108"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1227,7 +1226,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ip5-QE-Z6k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1808" y="94"/>
+            <point key="canvasLocation" x="2730.5343511450383" y="93.661971830985919"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="c7g-Yc-HbK">
@@ -1236,7 +1235,6 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Nf0-2Q-Z3G"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="MAq-b5-QBU">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="108"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1255,7 +1253,6 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="1KR-QQ-eNr"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="vBM-4K-mlD">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -1266,6 +1263,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qEa-7H-9Ad" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-407" y="944"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="9cr-pz-v4v">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9H8-vo-pac" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="WhA-Ia-iYo"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="bKF-at-rfu">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="UDj-Yc-9az"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v59-We-KPg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-408.39694656488547" y="93.661971830985919"/>
         </scene>
     </scenes>
     <resources>
@@ -1278,10 +1293,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemMintColor">
-            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
