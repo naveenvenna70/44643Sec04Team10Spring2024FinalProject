@@ -5,25 +5,66 @@
 //  Created by Naveen Reddy Venna on 4/19/24.
 //
 
+
 import UIKit
 
-class DesignableView: UIViewController {
+@IBDesignable
+class DesignableView: UIView {
+    @IBInspectable var shadowColor: UIColor = UIColor.clear {
+        didSet {
+            layer.shadowColor = shadowColor.cgColor
+        }
+    }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    @IBInspectable var shadowRadius: CGFloat = 0 {
+        didSet {
+            layer.shadowRadius = shadowRadius
+        }
+    }
 
-        // Do any additional setup after loading the view.
+    @IBInspectable var cornerRadiusValue: CGFloat = 10.0 {
+        didSet {
+            setUpView()
+        }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func setUpView() {
+        self.layer.cornerRadius = self.cornerRadiusValue
+        self.clipsToBounds = true
     }
-    */
+    
+    @IBInspectable var borderColor: UIColor = UIColor.clear {
+        didSet {
+            layer.borderColor = borderColor.cgColor
+        }
+    }
+
+    @IBInspectable var borderValue: CGFloat = 10.0 {
+        didSet {
+            setUpBorder()
+        }
+    }
+    
+    
+    func setUpBorder() {
+        self.layer.borderWidth = self.borderValue
+        self.clipsToBounds = true
+    }
+   
+    
+    @IBInspectable var shadowOpacity: CGFloat = 0 {
+        didSet {
+            layer.shadowOpacity = Float(shadowOpacity)
+        }
+    }
+
+    @IBInspectable var shadowOffsetY: CGFloat = 0 {
+        didSet {
+            layer.shadowOffset.height = shadowOffsetY
+        }
+    }
+}
+
+    
 
 }
