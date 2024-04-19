@@ -32,6 +32,15 @@
 		F551E5C32B82F7DC003224E2 /* DebtManagemenrtUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551E5C22B82F7DC003224E2 /* DebtManagemenrtUITestsLaunchTests.swift */; };
 		F5A232DB2BCE4F8700025F15 /* DebtSignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A232DA2BCE4F8700025F15 /* DebtSignUpVC.swift */; };
 		F5CA25702BD1EB3F001A243E /* LoanML.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F5CA256F2BD1EB3F001A243E /* LoanML.mlmodel */; };
+		F5CE861F2BD25D2F00A341FB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE861E2BD25D2F00A341FB /* Extension.swift */; };
+		F5CE86212BD25D7300A341FB /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE86202BD25D7300A341FB /* ButtonExtension.swift */; };
+		F5CE86252BD25DBD00A341FB /* ButtonWithShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE86242BD25DBD00A341FB /* ButtonWithShadow.swift */; };
+		F5CE86272BD25DD700A341FB /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE86262BD25DD700A341FB /* Color.swift */; };
+		F5CE86292BD25DFB00A341FB /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE86282BD25DFB00A341FB /* DesignableView.swift */; };
+		F5CE862B2BD25E1600A341FB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE862A2BD25E1600A341FB /* Extensions.swift */; };
+		F5CE862D2BD25E3200A341FB /* GolbalPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE862C2BD25E3200A341FB /* GolbalPicker.swift */; };
+		F5CE862F2BD25E5900A341FB /* SplitViewControllerUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE862E2BD25E5900A341FB /* SplitViewControllerUtility.swift */; };
+		F5CE86312BD25E8300A341FB /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE86302BD25E8200A341FB /* UIViewControllerExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +85,15 @@
 		F551E5C22B82F7DC003224E2 /* DebtManagemenrtUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtManagemenrtUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F5A232DA2BCE4F8700025F15 /* DebtSignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtSignUpVC.swift; sourceTree = "<group>"; };
 		F5CA256F2BD1EB3F001A243E /* LoanML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = LoanML.mlmodel; sourceTree = "<group>"; };
+		F5CE861E2BD25D2F00A341FB /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		F5CE86202BD25D7300A341FB /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
+		F5CE86242BD25DBD00A341FB /* ButtonWithShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithShadow.swift; sourceTree = "<group>"; };
+		F5CE86262BD25DD700A341FB /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F5CE86282BD25DFB00A341FB /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		F5CE862A2BD25E1600A341FB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F5CE862C2BD25E3200A341FB /* GolbalPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolbalPicker.swift; sourceTree = "<group>"; };
+		F5CE862E2BD25E5900A341FB /* SplitViewControllerUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitViewControllerUtility.swift; sourceTree = "<group>"; };
+		F5CE86302BD25E8200A341FB /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +149,15 @@
 		F551E59E2B82F7D9003224E2 /* DebtManagemenrt */ = {
 			isa = PBXGroup;
 			children = (
+				F5CE861E2BD25D2F00A341FB /* Extension.swift */,
+				F5CE86202BD25D7300A341FB /* ButtonExtension.swift */,
+				F5CE86242BD25DBD00A341FB /* ButtonWithShadow.swift */,
+				F5CE86262BD25DD700A341FB /* Color.swift */,
+				F5CE86282BD25DFB00A341FB /* DesignableView.swift */,
+				F5CE862A2BD25E1600A341FB /* Extensions.swift */,
+				F5CE862C2BD25E3200A341FB /* GolbalPicker.swift */,
+				F5CE862E2BD25E5900A341FB /* SplitViewControllerUtility.swift */,
+				F5CE86302BD25E8200A341FB /* UIViewControllerExt.swift */,
 				F551E59F2B82F7D9003224E2 /* AppDelegate.swift */,
 				F5A232DA2BCE4F8700025F15 /* DebtSignUpVC.swift */,
 				82383B462B85841E009F7D3E /* DebtVC.swift */,
@@ -315,19 +342,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5CE862D2BD25E3200A341FB /* GolbalPicker.swift in Sources */,
 				F551E5A42B82F7D9003224E2 /* ViewController.swift in Sources */,
 				82A1BF342BC84CFD00F797E1 /* CalendarVC.swift in Sources */,
 				4A3A743B2B9BD4CE00A0BFC0 /* LoanEstimationVC.swift in Sources */,
 				4A8016652BB3D6BB00C84030 /* ReviewpageVC.swift in Sources */,
+				F5CE86272BD25DD700A341FB /* Color.swift in Sources */,
 				F551E5A02B82F7D9003224E2 /* AppDelegate.swift in Sources */,
 				82FCE6102BB68F9400CB3A2E /* AdvicePage.swift in Sources */,
+				F5CE862B2BD25E1600A341FB /* Extensions.swift in Sources */,
 				F5CA25702BD1EB3F001A243E /* LoanML.mlmodel in Sources */,
+				F5CE86292BD25DFB00A341FB /* DesignableView.swift in Sources */,
 				F551E5A22B82F7D9003224E2 /* SceneDelegate.swift in Sources */,
+				F5CE86312BD25E8300A341FB /* UIViewControllerExt.swift in Sources */,
 				82383B472B85841E009F7D3E /* DebtVC.swift in Sources */,
+				F5CE861F2BD25D2F00A341FB /* Extension.swift in Sources */,
 				4A672AB22B9910EB00695E38 /* DebtTrackingVC.swift in Sources */,
 				82ADCAC02B9B9A19003B7420 /* PaymentScheduleVC.swift in Sources */,
+				F5CE86212BD25D7300A341FB /* ButtonExtension.swift in Sources */,
 				4A0CC9102B86E53E00779081 /* DebtmanagementVC.swift in Sources */,
 				F5A232DB2BCE4F8700025F15 /* DebtSignUpVC.swift in Sources */,
+				F5CE86252BD25DBD00A341FB /* ButtonWithShadow.swift in Sources */,
+				F5CE862F2BD25E5900A341FB /* SplitViewControllerUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
