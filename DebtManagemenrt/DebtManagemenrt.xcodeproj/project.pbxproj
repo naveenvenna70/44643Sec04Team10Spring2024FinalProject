@@ -31,6 +31,7 @@
 		F551E5C12B82F7DC003224E2 /* DebtManagemenrtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551E5C02B82F7DC003224E2 /* DebtManagemenrtUITests.swift */; };
 		F551E5C32B82F7DC003224E2 /* DebtManagemenrtUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551E5C22B82F7DC003224E2 /* DebtManagemenrtUITestsLaunchTests.swift */; };
 		F5A232DB2BCE4F8700025F15 /* DebtSignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A232DA2BCE4F8700025F15 /* DebtSignUpVC.swift */; };
+		F5CA25702BD1EB3F001A243E /* LoanML.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F5CA256F2BD1EB3F001A243E /* LoanML.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		F551E5C02B82F7DC003224E2 /* DebtManagemenrtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtManagemenrtUITests.swift; sourceTree = "<group>"; };
 		F551E5C22B82F7DC003224E2 /* DebtManagemenrtUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtManagemenrtUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F5A232DA2BCE4F8700025F15 /* DebtSignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtSignUpVC.swift; sourceTree = "<group>"; };
+		F5CA256F2BD1EB3F001A243E /* LoanML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = LoanML.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				4A672AB12B9910EB00695E38 /* DebtTrackingVC.swift */,
 				4A0CC90F2B86E53E00779081 /* DebtmanagementVC.swift */,
 				F551E5A82B82F7DC003224E2 /* Assets.xcassets */,
+				F5CA256F2BD1EB3F001A243E /* LoanML.mlmodel */,
 				F5314C742BCF801F000BA55A /* GoogleService-Info.plist */,
 				F551E5AA2B82F7DC003224E2 /* LaunchScreen.storyboard */,
 				F551E5AD2B82F7DC003224E2 /* Info.plist */,
@@ -318,6 +321,7 @@
 				4A8016652BB3D6BB00C84030 /* ReviewpageVC.swift in Sources */,
 				F551E5A02B82F7D9003224E2 /* AppDelegate.swift in Sources */,
 				82FCE6102BB68F9400CB3A2E /* AdvicePage.swift in Sources */,
+				F5CA25702BD1EB3F001A243E /* LoanML.mlmodel in Sources */,
 				F551E5A22B82F7D9003224E2 /* SceneDelegate.swift in Sources */,
 				82383B472B85841E009F7D3E /* DebtVC.swift in Sources */,
 				4A672AB22B9910EB00695E38 /* DebtTrackingVC.swift in Sources */,
