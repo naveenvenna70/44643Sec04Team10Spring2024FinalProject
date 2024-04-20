@@ -83,7 +83,7 @@ class DebtTrackingVC: UIViewController {
         
         else{
             
-            let caseDetails = LoanData(serviceNo: self.ServiceNoTF.text ?? "", loanIssuedDate: self.LoanIssuedDateTF.text ?? "", loanAmount: self.LoanAmountTF.text ?? "", interestRate: self.InterestRateTF.text ?? "", noOfYears: self.NoOfYearsTF.text ?? "", noOfInstallment: self.NoOfInstallmentTF.text ?? "", typeOfLoan: self.TypeofLoanTF.text ?? "", paymentDate: self.paymentDateTF.text ?? "", useremail: UserDefaultsManager.shared.getEmail())
+            let caseDetails = LoanData(serviceNo: self.ServiceNoTF.text ?? "", loanIssuedDate: self.LoanIssueDateTF.text ?? "", loanAmount: self.LoanAmountTF.text ?? "", interestRate: self.InterestrateTF.text ?? "", noOfYears: self.NoOfYearsTF.text ?? "", noOfInstallment: self.NoOfInstallmentTF.text ?? "", typeOfLoan: self.TypeOfLoanTF.text ?? "", paymentDate: self.DueDateTF.text ?? "", useremail: UserDefaultsManager.shared.getEmail())
             
             FireStoreManager.shared.addDebtDataToFirestore(caseDetails) { success in
                 if success{
@@ -117,12 +117,12 @@ class DebtTrackingVC: UIViewController {
                     toolbar.setItems([cancelButton,spaceButton,doneButton], animated: false)
                     
                     // add toolbar to textField
-                    LoanIssuedDateTF.inputAccessoryView = toolbar
-                    paymentDateTF.inputAccessoryView = toolbar
+                    LoanIssueDateTF.inputAccessoryView = toolbar
+                    DueDateTF.inputAccessoryView = toolbar
 
                     // add datepicker to textField
-                    LoanIssuedDateTF.inputView = datePicker
-                    paymentDateTF.inputView = datePicker
+                    LoanIssueDateTF.inputView = datePicker
+                    DueDateTF.inputView = datePicker
 
                 }
                 
@@ -130,11 +130,11 @@ class DebtTrackingVC: UIViewController {
                 if LoanIssueDateTF.isFirstResponder {
                     let formatter = DateFormatter()
                     formatter.dateFormat = "MM/dd/yyyy"
-                    LoanIssuedDateTF.text = formatter.string(from: datePicker.date)
-                } else if paymentDateTF.isFirstResponder {
+                    LoanIssueDateTF.text = formatter.string(from: datePicker.date)
+                } else if DueDateTF.isFirstResponder {
                     let formatter = DateFormatter()
                     formatter.dateFormat = "MM/dd/yyyy"
-                    paymentDateTF.text = formatter.string(from: datePicker.date)
+                    DueDateTF.text = formatter.string(from: datePicker.date)
                     self.paymentDate = datePicker.date
                 }
                 self.view.endEditing(true)
@@ -148,6 +148,6 @@ class DebtTrackingVC: UIViewController {
 
     
     
-    
+
     
 

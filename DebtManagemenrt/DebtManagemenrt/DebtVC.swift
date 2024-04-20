@@ -6,29 +6,11 @@
 //
 
 import UIKit
-import Lottie
 import Firebase
 import FirebaseAuth
 
 
 class DebtVC: UIViewController {
-    
-    
-    
-    @IBOutlet weak var LaunchLAV: LottieAnimationView!{
-        didSet{
-            LaunchLAV.animation = .named("Animation")
-            LaunchLAV.alpha=1
-            LaunchLAV.play(){[weak self] _ in
-                UIViewPropertyAnimator.runningPropertyAnimator(withDuration: 1, delay: 0.1, options: [.curveEaseIn]){
-                    self!.LaunchLAV.alpha = 0
-                }
-            }
-        }
-    }
-    
-    
-    
     
     
     @IBOutlet weak var usernameTF: UITextField!
@@ -89,6 +71,9 @@ class DebtVC: UIViewController {
         self.PasswordTF.isEnabled = true
     }
     
+    @IBAction func ForgotPassword(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "ShowtoForgot", sender: self)
+    }
     
     
     

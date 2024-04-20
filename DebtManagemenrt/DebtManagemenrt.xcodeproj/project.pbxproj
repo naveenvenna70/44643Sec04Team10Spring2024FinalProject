@@ -60,6 +60,8 @@
 		F551E5C12B82F7DC003224E2 /* DebtManagemenrtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551E5C02B82F7DC003224E2 /* DebtManagemenrtUITests.swift */; };
 		F551E5C32B82F7DC003224E2 /* DebtManagemenrtUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F551E5C22B82F7DC003224E2 /* DebtManagemenrtUITestsLaunchTests.swift */; };
 		F5A232DB2BCE4F8700025F15 /* DebtSignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A232DA2BCE4F8700025F15 /* DebtSignUpVC.swift */; };
+		F5B2FA842BD351B80031B407 /* LottieAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B2FA832BD351B80031B407 /* LottieAnimationVC.swift */; };
+		F5B2FA882BD357100031B407 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B2FA872BD357100031B407 /* ForgotPasswordVC.swift */; };
 		F5CA25702BD1EB3F001A243E /* LoanML.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F5CA256F2BD1EB3F001A243E /* LoanML.mlmodel */; };
 		F5CE86212BD25D7300A341FB /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE86202BD25D7300A341FB /* ButtonExtension.swift */; };
 		F5CE86252BD25DBD00A341FB /* ButtonWithShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE86242BD25DBD00A341FB /* ButtonWithShadow.swift */; };
@@ -116,6 +118,8 @@
 		F551E5C02B82F7DC003224E2 /* DebtManagemenrtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtManagemenrtUITests.swift; sourceTree = "<group>"; };
 		F551E5C22B82F7DC003224E2 /* DebtManagemenrtUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtManagemenrtUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F5A232DA2BCE4F8700025F15 /* DebtSignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtSignUpVC.swift; sourceTree = "<group>"; };
+		F5B2FA832BD351B80031B407 /* LottieAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationVC.swift; sourceTree = "<group>"; };
+		F5B2FA872BD357100031B407 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
 		F5CA256F2BD1EB3F001A243E /* LoanML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = LoanML.mlmodel; sourceTree = "<group>"; };
 		F5CE86202BD25D7300A341FB /* ButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
 		F5CE86242BD25DBD00A341FB /* ButtonWithShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithShadow.swift; sourceTree = "<group>"; };
@@ -229,7 +233,9 @@
 				F551E5A12B82F7D9003224E2 /* SceneDelegate.swift */,
 				F551E5A32B82F7D9003224E2 /* ViewController.swift */,
 				82ADCABF2B9B9A19003B7420 /* PaymentScheduleVC.swift */,
+				F5B2FA832BD351B80031B407 /* LottieAnimationVC.swift */,
 				F551E5A52B82F7DA003224E2 /* Main.storyboard */,
+				F5B2FA872BD357100031B407 /* ForgotPasswordVC.swift */,
 				82A1BF332BC84CFD00F797E1 /* CalendarVC.swift */,
 				82FCE60F2BB68F9400CB3A2E /* AdvicePage.swift */,
 				4A8016642BB3D6BB00C84030 /* ReviewpageVC.swift */,
@@ -448,6 +454,7 @@
 				F5CE86292BD25DFB00A341FB /* DesignableView.swift in Sources */,
 				F551E5A22B82F7D9003224E2 /* SceneDelegate.swift in Sources */,
 				F5CE86312BD25E8300A341FB /* UIViewControllerExt.swift in Sources */,
+				F5B2FA882BD357100031B407 /* ForgotPasswordVC.swift in Sources */,
 				82383B472B85841E009F7D3E /* DebtVC.swift in Sources */,
 				4A672AB22B9910EB00695E38 /* DebtTrackingVC.swift in Sources */,
 				F52DB9E12BD3131200D194EE /* Model.swift in Sources */,
@@ -458,6 +465,7 @@
 				F5A232DB2BCE4F8700025F15 /* DebtSignUpVC.swift in Sources */,
 				F5CE86252BD25DBD00A341FB /* ButtonWithShadow.swift in Sources */,
 				F52DB9AC2BD2ED3D00D194EE /* UserDefaulstManager.swift in Sources */,
+				F5B2FA842BD351B80031B407 /* LottieAnimationVC.swift in Sources */,
 				F5CE862F2BD25E5900A341FB /* SplitViewControllerUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
