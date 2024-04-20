@@ -2,6 +2,7 @@
 
 import UIKit
 import FirebaseAuth
+import AudioToolbox
 
 class DebtSignUpVC: UIViewController {
     

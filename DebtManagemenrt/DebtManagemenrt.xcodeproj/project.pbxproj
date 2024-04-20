@@ -16,7 +16,6 @@
 		82383B472B85841E009F7D3E /* DebtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82383B462B85841E009F7D3E /* DebtVC.swift */; };
 		82383B4A2B858550009F7D3E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 82383B492B858550009F7D3E /* Lottie */; };
 		82A1BF342BC84CFD00F797E1 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A1BF332BC84CFD00F797E1 /* CalendarVC.swift */; };
-		82ADCAC02B9B9A19003B7420 /* PaymentScheduleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ADCABF2B9B9A19003B7420 /* PaymentScheduleVC.swift */; };
 		82FCE6102BB68F9400CB3A2E /* AdvicePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FCE60F2BB68F9400CB3A2E /* AdvicePage.swift */; };
 		F52DB9AA2BD2ECFC00D194EE /* FireStoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52DB9A92BD2ECFC00D194EE /* FireStoreManager.swift */; };
 		F52DB9AC2BD2ED3D00D194EE /* UserDefaulstManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52DB9AB2BD2ED3D00D194EE /* UserDefaulstManager.swift */; };
@@ -97,7 +96,6 @@
 		4A8016642BB3D6BB00C84030 /* ReviewpageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewpageVC.swift; sourceTree = "<group>"; };
 		82383B462B85841E009F7D3E /* DebtVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtVC.swift; sourceTree = "<group>"; };
 		82A1BF332BC84CFD00F797E1 /* CalendarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
-		82ADCABF2B9B9A19003B7420 /* PaymentScheduleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentScheduleVC.swift; sourceTree = "<group>"; };
 		82FCE60F2BB68F9400CB3A2E /* AdvicePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvicePage.swift; sourceTree = "<group>"; };
 		F52DB9A92BD2ECFC00D194EE /* FireStoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireStoreManager.swift; sourceTree = "<group>"; };
 		F52DB9AB2BD2ED3D00D194EE /* UserDefaulstManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaulstManager.swift; sourceTree = "<group>"; };
@@ -232,7 +230,6 @@
 				82383B462B85841E009F7D3E /* DebtVC.swift */,
 				F551E5A12B82F7D9003224E2 /* SceneDelegate.swift */,
 				F551E5A32B82F7D9003224E2 /* ViewController.swift */,
-				82ADCABF2B9B9A19003B7420 /* PaymentScheduleVC.swift */,
 				F5B2FA832BD351B80031B407 /* LottieAnimationVC.swift */,
 				F551E5A52B82F7DA003224E2 /* Main.storyboard */,
 				F5B2FA872BD357100031B407 /* ForgotPasswordVC.swift */,
@@ -458,7 +455,6 @@
 				82383B472B85841E009F7D3E /* DebtVC.swift in Sources */,
 				4A672AB22B9910EB00695E38 /* DebtTrackingVC.swift in Sources */,
 				F52DB9E12BD3131200D194EE /* Model.swift in Sources */,
-				82ADCAC02B9B9A19003B7420 /* PaymentScheduleVC.swift in Sources */,
 				F5CE86212BD25D7300A341FB /* ButtonExtension.swift in Sources */,
 				4A0CC9102B86E53E00779081 /* DebtmanagementVC.swift in Sources */,
 				F52DB9AA2BD2ECFC00D194EE /* FireStoreManager.swift in Sources */,

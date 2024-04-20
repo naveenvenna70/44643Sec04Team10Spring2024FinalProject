@@ -7,6 +7,7 @@
 
 import UIKit
 import FirebaseAuth
+import AudioToolbox
 
 class ForgotPasswordVC: UIViewController {
     @IBOutlet weak var EmailLBL: UILabel!

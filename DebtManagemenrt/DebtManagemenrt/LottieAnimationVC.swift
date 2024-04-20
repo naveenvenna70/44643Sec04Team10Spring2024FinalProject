@@ -7,6 +7,7 @@
 
 import UIKit
 import Lottie
+import AudioToolbox
 
 class LottieAnimationVC: UIViewController {
     @IBOutlet weak var LaunchLAV: LottieAnimationView!{
